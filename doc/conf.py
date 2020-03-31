@@ -22,6 +22,7 @@ release = 'latest'
 exclude_patterns = ['_build']
 htmlhelp_basename = 'viva2'
 html_theme = 'sphinx_rtd_theme'
+highlight_language ='none'
 
 def setup(app):
     app.add_stylesheet('css/custom.css')
