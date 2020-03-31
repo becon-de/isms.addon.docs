@@ -1,5 +1,5 @@
 ##################
-Welcome to the Azure AddOn manuals
+Welcome to the VIVA2 AddOn manuals
 ##################
 
 The Azure AddOn serves as an interface between i-doit and Azure. Azure synchronizes the virtual systems into the leading i-doit system.
