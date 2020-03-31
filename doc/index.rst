@@ -1,41 +1,22 @@
 ##################
-Welcome to the VIVA2 AddOn manuals
+Willkommen zur Dokumentations des Add-Ons VIVA2
 ##################
 
-The Azure AddOn serves as an interface between i-doit and Azure. Azure synchronizes the virtual systems into the leading i-doit system.
+Das VIVA2 Add-On unterstützt beim Aufbau und der Dokumentation eines ISMS (Information Security Management Systems) nach dem neuen BSI Grundschutz.
 
 ------------
 
-This documentation is organized into a couple of sections:
-
-* :ref:`about-docs`
-* :ref:`getting-started-docs`
-
-.. _about-docs:
-
 .. toctree::
     :maxdepth: 2
-    :caption: About
-
-    about
-
-.. _getting-started-docs:
-
-.. toctree::
-    :maxdepth: 2
-    :caption: Getting Started
-
-    architecture
-    requirements
+    :caption: Technisches
     installation
-    configuration
-    usage
+    changelog
 
 
 ##################
 License
 ##################
 
-`becon`_ © 2013-2019 becon GmbH
+`becon`_ © 2013-2020 becon GmbH
 
 .. _becon: LICENSE.html
