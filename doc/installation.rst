@@ -3,12 +3,13 @@ Installation
 ##################
 
 Die Installation des VIVA2 Add-Ons entspricht dem Standardvorgehen für die Installation von i-doit Add-Ons:
-- Einloggen in des i-doit Admin-Center
-- Auf den Reiter "Add-ons" gehen
-- Auf den Button "Install/update Add-on" klicken
-- Das ZIP-Paket des Addons auswählen
-- Auf den Knopf "Upload und install" klicken
-- Fertig
+
+* Einloggen in des i-doit Admin-Center
+* Auf den Reiter "Add-ons" gehen
+* Auf den Button "Install/update Add-on" klicken
+* Das ZIP-Paket des Addons auswählen
+* Auf den Knopf "Upload und install" klicken
+* Fertig
 
 
 *********
