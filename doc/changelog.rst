@@ -52,7 +52,7 @@ English
 *****
 
 Deutsch
--------
+=======
 ::
 
 [Neue Funktion] Schutzbedarfsfeststellung: Neue Exportmöglichkeit ím CSV Format
@@ -65,7 +65,7 @@ Deutsch
 [Bug]           Addon wird nicht ordnungsgemäß deinstalliert
 
 English
--------
+=======
 ::
 
 [New feature]   Asessment of protection requirements: New export option in CSV format
@@ -83,7 +83,7 @@ English
 *****
 
 Deutsch
--------
+=======
 ::
 
 [Verbesserung]  Neue Icons und Bilder für VIVA2-Objekttypen
@@ -91,7 +91,7 @@ Deutsch
 
 
 English
--------
+=======
 ::
 
 [Improvement]   New icons and images for VIVA2 object types
@@ -103,7 +103,7 @@ English
 *****
 
 Deutsch
--------
+=======
 ::
 
 [Bug]           YAML ungültig
@@ -116,7 +116,7 @@ Deutsch
 
 
 English
--------
+=======
 ::
 
 [Bug]           Invalid YAML
@@ -126,26 +126,4 @@ English
 [Bug]           Migration from VIVA to VIVA2 sometimes faulty when using empty content
 [Bug]           In category "Assigned requirements" an error message is displayed when clicking on an entry
 [Task]          VIVA 2 PHP 7.2 Compability
-
-
-***
-2.0
-***
-
-Deutsch
--------
-::
-
-Initiale Veröffentlichung
-
-
-***
-2.0
-***
-
-English
--------
-::
-
-Initial release
 
