@@ -1,11 +1,14 @@
-##################
+#########
 Changelog
-##################
+#########
 
 
-=========
-3.0 (Deutsch)
-=========
+***
+3.0
+***
+
+Deutsch
+=======
 ::
 
 	[Neue Funktion] Der Umsetzungsstatus der Anforderungen wird jetzt an den Zielobjekten/-gruppen gespeichert
@@ -24,9 +27,8 @@ Changelog
 	[Bug]           Der "Durchsuchen"-Button fehlt in ->Informationsverbund->Bereinigter Netzplan
 
 
-=========
-3.0 (english)
-=========
+English
+=======
 ::
 
 	[New feature]   The implementation status of the requirements is now saved on the target objects/groups
@@ -43,4 +45,107 @@ Changelog
 	[Bug]           VIVA2 deinstallation leaves the object type group in the menu
 	[Bug]           Error when using the list edit for the category IT baseline protection
 	[Bug]           The "Browse" button is missing in Scope -> IT baseline protection (Scope)-> Adjusted network plan
+
+
+*****
+2.0.3
+*****
+
+Deutsch
+-------
+::
+
+[Neue Funktion] Schutzbedarfsfeststellung: Neue Exportmöglichkeit ím CSV Format
+[Neue Funktion] Schutzbedarfsfeststellung: Neue Exportmöglichkeit ím JSON Format
+[Verbesserung]  Schutzbedarfsfeststellung: Services und deren Beziehungen werden nun berücksichtigt
+[Verbesserung]  Vorbereitung auf kommendes Major-Realease: Anforderungstyp wird beim Import des Kompendiums an der Anforderung gespeichert
+[Bug]           Englische Übersetzungen fehlten teilweise
+[Bug]           Beim Aktualisieren des Grundschutz-Kompendiums sollte es "Benutzerdefinierte Anforderungen" und nicht "Benutzer-definierte Anforderungen" heißen
+[Bug]           Reports wurden bei der Installation nicht korrekt angelegt
+[Bug]           Addon wird nicht ordnungsgemäß deinstalliert
+
+English
+-------
+::
+
+[New feature]   Asessment of protection requirements: New export option in CSV format
+[New feature]   Asessment of protection requirements: New export option in JSON format
+[Improvement]   Asessment of protection requirements: Services and their relationships are now taken into account
+[Improvement]   Preperation for nect major release: Type of requirement is saved on requirement when importing the IT baseline protection kompendium
+[Bug]           Some english translations were missing
+[Bug]           Small fix in german translation
+[Bug]           Reports were not created correctly during installation
+[Bug]           Uninstallation of addon does not work correctly
+
+
+*****
+2.0.2
+*****
+
+Deutsch
+-------
+::
+
+[Verbesserung]  Neue Icons und Bilder für VIVA2-Objekttypen
+[Bug]           Reports werden bei der Neuinstallation in i-doit 1.13.1 (und höher) in die falsche Datenbank geschrieben
+
+
+English
+-------
+::
+
+[Improvement]   New icons and images for VIVA2 object types
+[Bug]           Reports are stored in the wrong database during a new installation in i-doit 1.13.1 (or higher)
+
+
+*****
+2.0.1
+*****
+
+Deutsch
+-------
+::
+
+[Bug]           YAML ungültig
+[Bug]           Doppelte Anzeige von Informationsverbunde in der Migration
+[Bug]           Gefährdungen im IT-Grundschutz werden nicht mehr angezeigt
+[Bug]           Schutzbedarfsfeststellung lässt sich nicht direkt nach öffnen des Add-Ons aufrufen
+[Bug]           Migration von VIVA auf VIVA2 bei leeren Inhalten teilweise fehlerhaft
+[Bug]           In Kategorie Zugwiesene Anforderungen wird eine Fehlermeldung ausgegeben wenn man auf einen Eintrag klickt
+[Aufgabe]       VIVA 2 PHP 7.2 Kompabilität
+
+
+English
+-------
+::
+
+[Bug]           Invalid YAML
+[Bug]           Double display of information networks in the migration
+[Bug]           Threats in basic IT protection are no longer displayed
+[Bug]           Schutzbedarfsfeststellung doesn't open when selected right after opening the add-on
+[Bug]           Migration from VIVA to VIVA2 sometimes faulty when using empty content
+[Bug]           In category "Assigned requirements" an error message is displayed when clicking on an entry
+[Task]          VIVA 2 PHP 7.2 Compability
+
+
+***
+2.0
+***
+
+Deutsch
+-------
+::
+
+Initiale Veröffentlichung
+
+
+***
+2.0
+***
+
+English
+-------
+::
+
+Initial release
 
