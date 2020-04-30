@@ -3,9 +3,9 @@ Changelog
 #########
 
 
-***
-3.0
-***
+***********
+Version 3.0
+***********
 
 Deutsch
 =======
@@ -47,9 +47,9 @@ English
 	[Bug]           The "Browse" button is missing in Scope -> IT baseline protection (Scope)-> Adjusted network plan
 
 
-*****
-2.0.3
-*****
+*************
+Version 2.0.3
+*************
 
 Deutsch
 =======
@@ -78,9 +78,9 @@ English
 [Bug]           Uninstallation of addon does not work correctly
 
 
-*****
-2.0.2
-*****
+*************
+Version 2.0.2
+*************
 
 Deutsch
 =======
@@ -98,9 +98,9 @@ English
 [Bug]           Reports are stored in the wrong database during a new installation in i-doit 1.13.1 (or higher)
 
 
-*****
-2.0.1
-*****
+*************
+Version 2.0.1
+*************
 
 Deutsch
 =======

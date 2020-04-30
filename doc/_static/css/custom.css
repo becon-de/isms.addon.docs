@@ -29,6 +29,12 @@
 	margin-right: auto;
 }
 
+h2{
+	font-size:130%;
+}
+
 h3{
 	font-style: italic;
+	font-weight:500;
+	font-size:120%;
 }
