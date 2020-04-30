@@ -7,11 +7,30 @@ Das VIVA2 Add-On unterstützt beim Aufbau und der Dokumentation eines ISMS (Info
 ------------
 
 .. toctree::
-    :maxdepth: 2
-    :caption: Technisches
+    :maxdepth: 1
+    :caption: Erste Schritte
     
+    einfuehrung
+    systemvoraussetzungen
     installation
-    changelog
+    einrichtung
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Das VIVA2-Addon
+    
+    uebersicht
+    informationsverbund
+    zielobjekte
+    it-grundschutz-check
+    schutzbedarfsfeststellung
+    reports
+
+.. toctree::
+    :maxdepth: 1
+    :caption: Historie
+    
+    changelog 
 
 
 ##################
