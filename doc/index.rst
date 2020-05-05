@@ -25,9 +25,9 @@ Das VIVA2 Add-On unterstützt beim Aufbau und der Dokumentation eines ISMS (Info
     it-grundschutz-check
     schutzbedarfsfeststellung
     reports
-    migration
     import
     profile
+    migration
 
 .. toctree::
     :maxdepth: 1
