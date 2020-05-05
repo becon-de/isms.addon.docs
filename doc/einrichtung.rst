@@ -2,7 +2,8 @@
 Einrichtung
 ###########
 
-Bevor man mit dem VIVA2-Addon ein ISMS nach BSI Grundschutz-Methodik aufbauen kann, muss das aktuelle Grundschutzkompendium installiert. Dazu geht man im Menü auf |pfeil| Extras |pfeil| IT-Grundschutz und dort auf den ersten Punkt |pfeil| Kompendium.
+Bevor man mit dem VIVA2-Addon ein ISMS nach BSI Grundschutz-Methodik aufbauen kann, muss das aktuelle Grundschutzkompendium installiert. Dazu geht man im Menü auf 
+|pfeil| Extras |pfeil| IT-Grundschutz und dort auf den ersten Punkt |pfeil| Kompendium.
 
 .. image:: img/einrichtung_2.jpg
 
@@ -13,8 +14,8 @@ Ein Klick auf den "Importieren"-Button öffnet ein Popup, in dem man über den "
 Ein Klick auf den "Importieren"-Button startet den initialen Import des Grundschutzkompendiums. 
 
 .. note::
-
     Der Importvorgang kann mehrere Minuten dauern!
+
 
  Sobald sich das Popup automatisch schließt, ist der Importvorgang abgeschlossen und auf der Übersichtsseite ist unter "Importiert am" der Zeitstempel des Imports eingetragen.
 
