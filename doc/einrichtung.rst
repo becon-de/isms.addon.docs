@@ -11,16 +11,23 @@ Ein Klick auf den "Importieren"-Button öffnet ein Popup, in dem man über den "
 
 .. image:: img/einrichtung_3.jpg
 
-Ein Klick auf den "Importieren"-Button startet den initialen Import des Grundschutzkompendiums. 
+Ein Klick auf den "Importieren"-Button startet den initialen Import des Grundschutzkompendiums. Dieser Importvorgang kann mehrere Minuten dauern. Sobald sich das Popup automatisch schließt, ist der Importvorgang abgeschlossen und auf der Übersichtsseite ist unter "Importiert am" der Zeitstempel des Imports eingetragen.
+
+
+Die technische Einrichtung des VIVA2-Addons ist jetzt abgeschlossen.
+
 
 .. note::
-    Der Importvorgang kann mehrere Minuten dauern!
+    Durch den initialen Import des Grundschutzkompendiums werden mehrere lizenzpflichtige Objekte angelegt. Die genaue Anzahl ist abhängig von der Version des Grundschutzkompendiums. Bei der aktuellen Version 2019 sind das:
 
+    ============== ==============
+    Objekttyp      Anzahl Objekte
+    ============== ==============
+    Anforderung    1657          
+    Baustein       94            
+    Gefährdung     636           
+    ============== ============== 
 
- Sobald sich das Popup automatisch schließt, ist der Importvorgang abgeschlossen und auf der Übersichtsseite ist unter "Importiert am" der Zeitstempel des Imports eingetragen.
-
-
- Die technische Einrichtung des VIVA2-Addons ist jetzt abgeschlossen.
 
 
 .. |pfeil| unicode:: U+23F5
