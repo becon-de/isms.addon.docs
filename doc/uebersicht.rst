@@ -20,7 +20,7 @@ Die Objekte der drei Objekttypen Baustein, Anforderung und Gefährdung werden du
 
 Bei der Definition des Informationsverbundes (oder auch mehrerer Informationsverbünde) und im Rahmen der :doc:`strukturanalyse` werden die Objekte der Objekttypen Informationsverbund, Zielobjektgruppe und Kommunikationsverbindung angelegt.
 
-.. image:: img/objekttypen.jpg
+.. image:: img/objekttypen.png
 
 In der :doc:`schutzbedarfsfeststellung` können die Schutzbedarfe definiert und begründet und die Vererbung des Schutzbedarfs in der grafischen Darstellung nachvollzogen und verändert werden.
 
