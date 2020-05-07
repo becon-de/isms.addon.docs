@@ -4,15 +4,12 @@
 
 Durch das VIVA2-Addon wird eine neue Objekttypgruppe "IT-Grundschutz" erstellt. Dieser Objekttypgruppe werden sechs neue Objekttypen zugeordnet:
 
-.. toctree::
-    :maxdepth: 1
-    
-    baustein
-    anforderung
-    gefaehrdung
-    informationsverbund
-    zielobjektgruppe
-    kommunikationsverbindung
+* :doc:`baustein`
+* :doc:`anforderung`
+* :doc:`gefaehrdung`
+* :doc:`informationsverbund`
+* :doc:`zielobjektgruppe`
+* :doc:`kommunikationsverbindung`
 
 
 Die Objekte der drei Objekttypen Baustein, Anforderung und Gefährdung werden durch den Import des Grundschutzkompendiums angelegt und können natürlich auch problemlos durch eigene Bausteine, Anforderungen und Gefährdungen erweitert werden.
