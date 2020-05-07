@@ -22,12 +22,7 @@ Das VIVA2 Add-On unterstützt beim Aufbau und der Dokumentation eines ISMS (Info
     :caption: Funktionsübersicht
     
     uebersicht
-    baustein
-    gefaehrdung
-    anforderung
-    informationsverbund
-    zielobjektgruppe
-    kommunikationsverbindung
+    objekttypen
     strukturanalyse
     schutzbedarfsfeststellung
     modellierung
