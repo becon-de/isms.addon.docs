@@ -112,9 +112,9 @@ Für jeden Informationsverbund gibt es genau ein Objekt vom Typ "Informationsver
 
 
 .. _zielobjektgruppe:
-##########################
+**************************
 Objekttyp Zielobjektgruppe
-##########################
+**************************
 
 .. image:: img/targetgroup_100x100.jpg
      :class: floatright
