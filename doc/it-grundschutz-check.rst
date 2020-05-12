@@ -19,6 +19,6 @@ Ein Klick auf das Stift-Icon öffnet die Bearbeitungsmaske, um den Stand der Ums
 
 Wenn alle Basisanforderungen eines Bausteins umgesetzt sind (Umsetzungstatus "Ja"), dann wird der Baustein mit "Basisabsicherung erreicht" markiert.
 
-.. image:: img/itgscheck3.png
+.. image:: img/itgscheck4.png
 
 Analog dazu wird der Baustein mit "Standardabsicherung erreicht" markiert, wenn alle Basisanforderungen umgesetzt sind und alle Standardanforderungen als umgesetzt oder als entbehrlich dokumentiert sind.

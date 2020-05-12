@@ -106,7 +106,7 @@ Für jeden Informationsverbund gibt es genau ein Objekt vom Typ "Informationsver
 **Report: Vom Informationsverbund abgedeckt**
     Dieser variable Report zeigt alle Objekte an, die entweder direkt diesem Informationsverbund zugeordnet sind oder die Mitglieder einer Zielobjektgruppe sind, die diesem Informationsverbund zugeordnet ist.
 
-
+`Zielobjektgruppe`_
 **************************
 Objekttyp Zielobjektgruppe
 **************************
@@ -153,8 +153,8 @@ Der Objekttyp "Kommunikationsverbindung" dient der Dokumentation der für den In
 **Allgemein** *(i-doit Standardkategorie)*
     Gehört zu jedem Objekt.
 **IT-Grundschutz (Zielobjekte)** 
-    Diese Kategoriegruppierung dient der Zuordnung zum Informationsverbund, der Schutzbedarfsfeststellung, der Zuordnung von Bausteinen und dem IT-Grundschutz-Check (s. :ref:`Zielobjektgruppe <objekttyp-zielobjektgruppe>` für eine ausführlichere Beschreibung).
+    Diese Kategoriegruppierung dient der Zuordnung zum Informationsverbund, der Schutzbedarfsfeststellung, der Zuordnung von Bausteinen und dem IT-Grundschutz-Check (s. :ref:`Zielobjektgruppe` für eine ausführlichere Beschreibung).
 **Kommunikationsverbindung** 
-    Hier kann dokumentiert werden, welche Objekte oder Objektgruppen diese Kommunikationsverbindung verwenden. Von diesen Objekten wird der Schutzbedarf dann (nach dem Maximalprinzip) auf die Kommunikationsverbindung vererbt. Außerdem kann zur Veranschaulichung der Netzplan mit der hervorgehobenen Kommunikationsverbindung verlinkt werden.
+    Hier kann dokumentiert werden, welche Objekte oder Objektgruppen diese Kommunikationsverbindung verwenden. Von diesen Objekten wird der Schutzbedarf dann (nach dem Maximumprinzip) auf die Kommunikationsverbindung vererbt. Außerdem kann zur Veranschaulichung der Netzplan mit der hervorgehobenen Kommunikationsverbindung verlinkt werden.
 **Kontaktzuweisung** *(i-doit Standardkategorie)*
     Hier sollen die Hauptansprechpartner für die Kommunikationverbindung dokumentiert werden.
