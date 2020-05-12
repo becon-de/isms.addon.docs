@@ -8,5 +8,5 @@ In der Kategorie "IT-Grundschutz-Check" werden alle Anforderungen aufgelistet, d
 
 Ein Klick auf das Lupensymbol zeigt außerdem noch den Text der Anforderung und die Umsetzungsbeschreibung an.
 
-.. image:: img/itgscheck1.png
+.. image:: img/itgscheck2.png
 
