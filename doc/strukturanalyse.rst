@@ -55,4 +55,6 @@ Die zu dokumentierenden Kommunikationsverbindungen werden über den neuen `Objek
 
 .. image:: img/strukturanalyse3.png
 
-Wenn in der Kategorie "Kommunikationsverbindung" Objekte bei "Verbindungsteilnehmer" eingetragen sind, dann wird in der Schutzbedarfsfeststellung der Schutzbedarf von diesen Objekten auf die Kommunikationsvererbung vererbt.
+Kommunikationsverbindungen werde in der Regel direkt dem Informationsverbund zugeordnet, deswegen ist dem Objekttypen "Kommunikationsverbindung" die Kategorie "IT-Grundschutz (Zielobjekte)" initial zugeordnet. Inder Kategorie "Informationsverbünde" muss dann noch der entsprechende Informationsverbund zugeordnet werden. 
+
+Wenn in der Kategorie "Kommunikationsverbindung" Objekte bei "Verbindungsteilnehmer" eingetragen sind, dann wird in der Schutzbedarfsfeststellung der Schutzbedarf von diesen Objekten auf die Kommunikationsvererbung vererbt. 
