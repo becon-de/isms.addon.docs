@@ -71,7 +71,7 @@ Schutzbedarf exportieren
 * CSV: Die Schutzbedarfsfeststellung des gesamten Informationsverbundes wird als CSV-Datei zum Export angeboten. Eine ggf. angegebene Filterung wird ignoriert.
 * JSON: Die Schutzbedarfsfeststellung des gesamten Informationsverbundes wird im JSON-Datei zum Export angeboten. Eine ggf. angegebene Filterung wird ignoriert.
 
-.. image:: img/schutzbedarf6.png
+.. image:: img/schutzbedarf7.png
 
 
 .. |pfeil| unicode:: U+23F5
