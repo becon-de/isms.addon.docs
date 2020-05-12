@@ -29,7 +29,6 @@ Wichtige Hinweise für das Update auf Version 3.0
 
 	Seit der Version 2.0.3 wird der Anforderungstyp (Basisanforderung/Standardanforderung/Anforderung bei erhöhtem Schutzbedarf) beim Import des IT-Grundschutz-Kompendiums an der Anforderung gespeichert. Wenn seit der Installation der Version 2.0.3 das Kompendium nicht importiert wurde, sollte dies wiederholt werden (egal ob vor oder nach dem Update auf Version  3.0), um den vollen Funktionsumfang des VIVA2 3.0 nutzen zu können.
 
-.. _known-issues:
 ************
 Known issues
 ************
