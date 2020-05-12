@@ -4,6 +4,42 @@ Changelog
 
 
 ***********
+Version 3.1
+***********
+
+Deutsch
+=======
+::
+
+	[Neue Funktion] Neuer Objekttyp "Kommunikationsverbindung"
+	[Neue Funktion] Vererbung des Schutzbedarfs über die neue Beziehung "Kommunikationsverbindung"
+	[Neue Funktion] Die grafische Darstellung der Schutzbedarfsfeststellung kann jetzt gefiltert werden
+	[Neue Funktion] Die Begründung für die Schutzbedarfsfeststellung kann in der grafischen Darstellung eingetragen werden
+	[Verbesserung]  Die Begründung für die Schutzbedarfsfeststellung ist jetzt auch im CSV-Export enthalten
+	[Verbesserung]  Rollen, die durch das Grundschutzkompendium hinzugefügt werden, werden jetzt auch deinstalliert
+	[Verbesserung]  Die aktualisierte Dokumentation zum VIVA2-Addons ist ab jetzt hier zu finden: https://viva2.readthedocs.io
+	[Bug]           Übersetzungen für "SVG-Datei" und "PNG-Datei" sind in der 1.14.1 nicht mehr vorhanden und werden jetzt durch das Addon geliefert
+	[Bug]           Übersetzung vom "Bitte warten" Overlay der Schutzbedarfsfeststellung wurde nur angezeigt, wenn das Raumplan-Addon installiert ist
+	[Bug]           Die Schutzbedarfsfeststellung zeigte einen Fehler an, wenn die angezeigten Zielobjekte keine Verbindung haben.
+
+
+English
+=======
+::
+
+	[New feature]   New object type "communication link"
+	[New feature]   The protection requirements will be inherited over the new relation "communication link"
+	[New feature]   It is now possible to set a filter in the graphical representation of the assessment of protection requirements
+	[New feature]   The reason for the assessment of the protection requirements can now be edited in the graphical representation
+	[Improvement]   The reason for the assessment of the protection requirements in included now in the CSV export
+	[Improvement]   Contact roles, which will be imported by the IT-Grundschutz Compendium, will now be removed during deinstallation of the addon
+	[Improvement]   The updated documentation for the VIVA2 addon can now be found here: https://viva2.readthedocs.io (only in german yet)
+	[Bug]           Translations for "CSV file" and "PNG file" were not available in 1.14.1 anymore
+	[Bug]           Translation of the "Please wait" Overlay in the assessment of protection requirements was only shown, if floorplan addon was installed
+	[Bug]           The assessment of the protection requirements has shown an error, if the shown target objects didn't have any links
+
+
+***********
 Version 3.0
 ***********
 
