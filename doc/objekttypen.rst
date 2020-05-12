@@ -4,7 +4,6 @@ VIVA2-Objekttypen
 
 Das VIVA2-Addon führt sechs neue Objekttypen ein, die alle in der Objekttypgruppe "IT-Grundschutz" eingeordnet werden:
 
-.. _baustein:
 ******************
 Objekttyp Baustein
 ******************
@@ -32,7 +31,6 @@ Der Objekttyp "Baustein" bildet die Bausteine aus dem Grundschutzkompendium ab. 
     Über die Zugriffs-Kategorie ist der Baustein mit der Bausteinbeschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt.
 
 
-.. _anforderung:
 *********************
 Objekttyp Anforderung
 *********************
@@ -52,7 +50,6 @@ Der Objekttyp "Anforderung" bildet die Anforderungen aus den Bausteinen des Grun
     Über die Zugriffs-Kategorie ist die Anforderung mit der zugehörigen Bausteinbeschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt.
 
 
-.. _gefaehrdung:
 ********************
 Objekttyp Gefährdung
 ********************
@@ -72,7 +69,6 @@ Der Objekttyp "Gefährdung" bildet die Gefährdungen aus den Bausteinen des Grun
     Über die Zugriffs-Kategorie ist die Gefährdung mit der zugehörigen Bausteinbeschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt.
 
 
-.. _informationsverbund:
 *****************************
 Objekttyp Informationsverbund
 *****************************
@@ -111,7 +107,6 @@ Für jeden Informationsverbund gibt es genau ein Objekt vom Typ "Informationsver
     Dieser variable Report zeigt alle Objekte an, die entweder direkt diesem Informationsverbund zugeordnet sind oder die Mitglieder einer Zielobjektgruppe sind, die diesem Informationsverbund zugeordnet ist.
 
 
-.. _zielobjektgruppe:
 **************************
 Objekttyp Zielobjektgruppe
 **************************
@@ -146,7 +141,6 @@ Im Rahmen der Strukturanalyse sollen "ähnliche" Zielobjekte zur Komplexitätsre
     Hier wird definiert, welche Objekte dieser Zielobjektgruppe zugeordnet sind. Bitte beachten, dass der Typ auf "statisch" gestellt sein muss, damit die ganzen :doc:`report` funktionieren.
 
 
-.. _kommunikationsverbindung:
 **********************************
 Objekttyp Kommunikationsverbindung
 **********************************
@@ -158,8 +152,8 @@ Der Objekttyp "Kommunikationsverbindung" dient der Dokumentation der für den In
 
 **Allgemein** *(i-doit Standardkategorie)*
     Gehört zu jedem Objekt.
-**IT-Grundschutz (Zielobjekt)** 
-    Diese Kategoriegruppierung dient der Zuordnung zum Informationsverbund, der Schutzbedarfsfeststellung, der Zuordnung von Bausteinen und dem IT-Grundschutz-Check (s. `Zielobjektgruppe <objekttypen.html#zielobjektgruppe>`_ für eine ausführlichere Beschreibung).
+**IT-Grundschutz (Zielobjekte)** 
+    Diese Kategoriegruppierung dient der Zuordnung zum Informationsverbund, der Schutzbedarfsfeststellung, der Zuordnung von Bausteinen und dem IT-Grundschutz-Check (s. :ref:`Zielobjektgruppe <#objekttyp-zielobjektgruppe>` für eine ausführlichere Beschreibung).
 **Kommunikationsverbindung** 
     Hier kann dokumentiert werden, welche Objekte oder Objektgruppen diese Kommunikationsverbindung verwenden. Von diesen Objekten wird der Schutzbedarf dann (nach dem Maximalprinzip) auf die Kommunikationsverbindung vererbt. Außerdem kann zur Veranschaulichung der Netzplan mit der hervorgehobenen Kommunikationsverbindung verlinkt werden.
 **Kontaktzuweisung** *(i-doit Standardkategorie)*
