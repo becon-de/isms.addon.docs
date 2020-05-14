@@ -14,6 +14,8 @@ Das VIVA2 Add-On unterstützt beim Aufbau und der Dokumentation eines ISMS (Info
     systemvoraussetzungen
     installation
     einrichtung
+    profile
+    migration
 
 .. toctree::
     :maxdepth: 1
