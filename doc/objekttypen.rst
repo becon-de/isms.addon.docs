@@ -92,7 +92,7 @@ Für jeden Informationsverbund gibt es genau ein Objekt vom Typ "Informationsver
     **Prozessbausteine**
         Hier können die Prozessbausteine zugewiesen werden, die für den gesamten Informationsverbund gelten. Aus technischer Sicht können auch  Systembausteine zugewiesen werden, in der Regel werden diese jedoch den jeweiligen Zielobjekten bzw. Zielobjektgruppen zugewiesen. Mehr dazu findet man unter :doc:`strukturanalyse`.
 **Kontaktzuweisung** *(i-doit Standardkategorie)* 
-    Hier müssen die entsprechenden Rollen für den kompletten Informationsverbund eingetragen werden, allen voran natürlich der Informationssicherheitsbeauftraget (ISB).
+    Hier müssen die entsprechenden Rollen für den kompletten Informationsverbund eingetragen werden, allen voran natürlich der Informationssicherheitsbeauftragte (ISB).
 **Report: Anwendungen ohne Installation**
     Dieser variable Report zeigt alle Anwendungen an, die auf keiner Maschine installiert sind (laut Dokumentation in i-doit). Es werden alle Anwendungen überprüft, die entweder direkt diesem Informationsverbund zugeordnet sind oder die Mitglieder einer Zielobjektgruppe sind, die diesem Informationsverbund zugeordnet ist.
 **Report: IT-Grundschutz-Check**
@@ -106,7 +106,7 @@ Für jeden Informationsverbund gibt es genau ein Objekt vom Typ "Informationsver
 **Report: Vom Informationsverbund abgedeckt**
     Dieser variable Report zeigt alle Objekte an, die entweder direkt diesem Informationsverbund zugeordnet sind oder die Mitglieder einer Zielobjektgruppe sind, die diesem Informationsverbund zugeordnet ist.
 
-`Zielobjektgruppe`_
+
 **************************
 Objekttyp Zielobjektgruppe
 **************************
@@ -153,7 +153,7 @@ Der Objekttyp "Kommunikationsverbindung" dient der Dokumentation der für den In
 **Allgemein** *(i-doit Standardkategorie)*
     Gehört zu jedem Objekt.
 **IT-Grundschutz (Zielobjekte)** 
-    Diese Kategoriegruppierung dient der Zuordnung zum Informationsverbund, der Schutzbedarfsfeststellung, der Zuordnung von Bausteinen und dem IT-Grundschutz-Check (s. :ref:`Zielobjektgruppe` für eine ausführlichere Beschreibung).
+    Diese Kategoriegruppierung dient der Zuordnung zum Informationsverbund, der Schutzbedarfsfeststellung, der Zuordnung von Bausteinen und dem IT-Grundschutz-Check (s. `Zielobjektgruppe <#objekttyp-zielobjektgruppe>`_ für eine ausführlichere Beschreibung).
 **Kommunikationsverbindung** 
     Hier kann dokumentiert werden, welche Objekte oder Objektgruppen diese Kommunikationsverbindung verwenden. Von diesen Objekten wird der Schutzbedarf dann (nach dem Maximumprinzip) auf die Kommunikationsverbindung vererbt. Außerdem kann zur Veranschaulichung der Netzplan mit der hervorgehobenen Kommunikationsverbindung verlinkt werden.
 **Kontaktzuweisung** *(i-doit Standardkategorie)*

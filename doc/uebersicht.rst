@@ -6,7 +6,7 @@ Durch das VIVA2-Addon wird eine neue Objekttypgruppe "IT-Grundschutz" erstellt. 
 
 * `Baustein <objekttypen.html#objekttyp-baustein>`_
 * `Anforderung <objekttypen.html#objekttyp-anforderung>`_
-* `Gefährdung <objekttypen.html#objekttyp-gefaehrdung>`_
+* `Gefährdung <objekttypen.html#objekttyp-gefahrdung>`_
 * `Informationsverbund <objekttypen.html#objekttyp-informationsverbund>`_
 * `Zielobjektgruppe <objekttypen.html#objekttyp-zielobjektgruppe>`_
 * `Kommunikationsverbindung <objekttypen.html#objekttyp-kommunikationsverbindung>`_
@@ -19,7 +19,7 @@ Bei der Definition des Informationsverbundes (oder auch mehrerer Informationsver
 
 .. image:: img/objekttypen.png
 
-In der :doc:`schutzbedarfsfeststellung` können die Schutzbedarfe definiert und begründet und die Vererbung des Schutzbedarfs in der grafischen Darstellung nachvollzogen und verändert werden.
+In der :doc:`schutzbedarfsfeststellung` können die Schutzbedarfe definiert und begründet werden. Außerdem kann die Vererbung des Schutzbedarfs in der grafischen Darstellung nachvollzogen und verändert werden.
 
 
 Im Rahmen der :doc:`modellierung` müssen dem Informationsverbund und den Zielobjekten/Zielobjektgruppen die entsprechenden Bausteine zugeordnet und den Bausteinen die Hauptansprechpartner zugewiesen werden.
