@@ -2,7 +2,7 @@
 Modellierung des Informationsverbundes
 ######################################
 
-Bei der Modellierung des Informationsverbundes müssen hauptsächlich die Bausteine des Grundschutzkompendiums dem Informationsverbund und seinen Zielobjekten bzw. Zielobjektgruppen zugerdnet werden. Unterschieden wird hier zwischen der Zuweisung von Prozessbausteinen am Informationsverbund und von hauptsächlich System-)Bausteinen an Zielobjekten bzw. Zielobjektgruppen.
+Bei der Modellierung des Informationsverbundes müssen hauptsächlich die Bausteine des Grundschutzkompendiums dem Informationsverbund und seinen Zielobjekten bzw. Zielobjektgruppen zugerdnet werden. Unterschieden wird hier zwischen der Zuweisung von Prozessbausteinen am Informationsverbund und von (hauptsächlich System-)Bausteinen an Zielobjekten bzw. Zielobjektgruppen.
 
 Die Zuweisung von Prozessbausteinen zum Informationsverbund geschieht über die Kategorie "Prozessbausteine" am Informationsverbund.
 

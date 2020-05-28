@@ -69,7 +69,7 @@ Schutzbedarf exportieren
 * SVG: Der komplette gerenderte Bereich wird im SVG-Format gespeichert.
 * PNG: Es wird nur der gerade sichtbare Bereich als PNG-Datei gespeichert.
 * CSV: Die Schutzbedarfsfeststellung des gesamten Informationsverbundes wird als CSV-Datei zum Export angeboten. Eine ggf. angegebene Filterung wird ignoriert.
-* JSON: Die Schutzbedarfsfeststellung des gesamten Informationsverbundes wird im JSON-Datei zum Export angeboten. Eine ggf. angegebene Filterung wird ignoriert.
+* JSON: Die Schutzbedarfsfeststellung des gesamten Informationsverbundes wird im JSON-Format zum Export angeboten. Eine ggf. angegebene Filterung wird ignoriert.
 
 .. image:: img/schutzbedarf7.png
 
