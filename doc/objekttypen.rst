@@ -35,15 +35,18 @@ Der Objekttyp "Anforderung" bildet die Anforderungen aus den Bausteinen des Grun
     Diese Multi-Value-Kategorie verknüpft das Schadenszenario mit den Bewertungskriterien. Für jedes Bewertungskriterium kann eine Ausprägung festgelegt werden.
 
 Beispiel:
-============== ==========================  ==============================
-Kennzeichnung   Bezeichnung                 Bewertungskriterium
-============== ==========================  ==============================
-1              Finanzielle Auswirkungen     Gering: Weniger als 5.000 EUR
-                                            Normal: Von 5.000 bis 50.000 EUR
-                                            Hoch: Von 50.000 bis 500.000 EUR
-                                            Sehr hoch: Mehr als 500.000 EUR
-============== ==========================  ==============================
-
+..list-table::
+    :name Beispiel:
+    :header-rows:1:
+    *- Kennzeichnung
+     - 1
+    *- Bezeichnung
+     - Finzanzielle Auswirkungen
+    *-Bewertungskriterium
+     - Gering: Weniger als 5.000 EUR
+     - Normal: Von 5.000 bis 50.000 EUR
+     - Hoch: Von 50.000 bis 500.000 EUR
+     - Sehr hoch: Mehr als 500.000 EUR
 
 ********************
 Objekttyp Bedrohung
