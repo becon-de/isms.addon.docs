@@ -34,8 +34,7 @@ Der Objekttyp "Anforderung" bildet die Anforderungen aus den Bausteinen des Grun
 **Bewertungskriterien**  
     Diese Multi-Value-Kategorie verknüpft das Schadenszenario mit den Bewertungskriterien. Für jedes Bewertungskriterium kann eine Ausprägung festgelegt werden.
 
-Beispiel:
-..list-table::
+..  list-table::
     :name Beispiel:
     :header-rows:1:
     *- Kennzeichnung
