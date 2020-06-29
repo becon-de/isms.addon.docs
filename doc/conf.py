@@ -4,11 +4,11 @@ from datetime import datetime
 
 # -- Customized ---------------------------------------------------
 
-html_title = "i-doit VIVA2 AddOn Dokumentation"
+html_title = "i-doit ISMS AddOn Dokumentation"
 master_doc = 'index'
-project = u'VIVA2'
+project = u'ISMS'
 #html_short_title = None
-html_logo = 'img/Logo_VIVA2.png'
+html_logo = 'img/Logo_ISMS.png'
 html_favicon = 'img/favicon32x32.png'
 numpydoc_show_class_members = False
 class_members_toctree = False
@@ -20,7 +20,7 @@ copyright = str(datetime.now().year)
 version = 'latest'
 release = 'latest'
 exclude_patterns = ['_build']
-htmlhelp_basename = 'viva2'
+htmlhelp_basename = 'ISMS'
 html_theme = 'sphinx_rtd_theme'
 highlight_language ='none'
 

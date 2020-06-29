@@ -1,160 +1,125 @@
 #################
-VIVA2-Objekttypen
+ISMS-Objekttypen
 #################
 
-Das VIVA2-Addon führt sechs neue Objekttypen ein, die alle in der Objekttypgruppe "IT-Grundschutz" eingeordnet werden:
+Das ISMS-Addon führt sechs neue Objekttypen ein, die alle in der Objekttypgruppe "IT-Grundschutz" eingeordnet werden:
 
 ******************
-Objekttyp Baustein
+Objekttyp Bewertungskriterium
 ******************
 
-.. image:: img/module_100x100.jpg
+.. image:: img/Criteria100x100.jpg
      :class: floatright
 
-Der Objekttyp "Baustein" bildet die Bausteine aus dem Grundschutzkompendium ab. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Baustein:
+Der Objekttyp "Bewertungskriterium" bildet die Grundlage zur Bewertung von Risiken. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Bewertungskriterium:
 
 **Allgemein** *(i-doit Standardkategorie)* 
     Gehört zu jedem Objekt.
-**Anforderungen** 
-    Dies ist eine Multivalue-Kategorie, in der alle Anforderungen verknüpft sind, die zu diesem Baustein gehören.
-**Baustein** 
-    Diese Kategorie enthält die textuellen Beschreibungen des Bausteins aus dem Grundschutzkompendium, wie z.B. Nummer, Titel, Einleitung, Zielsetzung und Abgrenzung.
-**Dateien** *(i-doit Standardkategorie)* 
-    Hier können zusätzlich Dateien zu diesem Baustein verlinkt werden.
-**Gefährdungslage** 
-    Dies ist eine Multivalue-Kategorie, in der alle Gefährdungen verknüpft sind, die zu diesem Baustein gehören.
-**Kontaktzuweisung** *(i-doit Standardkategorie)* 
-    Hier müssen die entsprechenden Ansprechpartner für den Baustein eingetragen werden.
-**Zielobjekte/-gruppen** 
-    Dies ist eine Multivalue-Kategorie, in der alle Objekte verknüpft sind, denen dieser Baustein zugewiesen (entweder über die Kategorie "Prozessbausteine" oder über die Kategorie "Zugeordnete Bausteine").
-**Zugriff** *(i-doit Standardkategorie)* 
-    Über die Zugriffs-Kategorie ist der Baustein mit der Bausteinbeschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt.
-
+**Bewertungskriterium** 
+    Hier muss das Level festgesetzt werden, das für die Berechnung der Risikohöhe ausschlaggebend ist. Außerdem können eine Beschreibung der Eintrittswahrscheinlichkeit und eine Benennung der Schadensaußmaß für das Bewertungskriterium festlegegt werden.
 
 *********************
-Objekttyp Anforderung
+Objekttyp Schadenzenario
 *********************
 
-.. image:: img/requirement_100x100.jpg
+.. image:: img/incident_scenario_100x100.jpg
      :class: floatright
 
 Der Objekttyp "Anforderung" bildet die Anforderungen aus den Bausteinen des Grundschutzkompendium ab. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Anforderung:
 
 **Allgemein** *(i-doit Standardkategorie)*
     Gehört zu jedem Objekt.
-**Anforderung** 
-    Diese Kategorie enthält die textuellen Beschreibungen der Anforderung aus dem Grundschutzkompendium, wie z.B. Nummer, Titel, Anforderungstyp und Beschreibung.
-**Bausteine**  
-    Diese Kategorie verknüpft die Anforderung mit dem zugehörigen Baustein. Obwohl dies eine Multivalue-Kategorie ist, macht eine Zuweisung zu mehreren Bausteinen in der Regel keinen Sinn.
-**Zugriff** *(i-doit Standardkategorie)*
-    Über die Zugriffs-Kategorie ist die Anforderung mit der zugehörigen Bausteinbeschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt.
+**Schadenszenario** 
+    Hier kann eine Kennzeichnung (Ganzzahl) eingestellt werden. Diese dient lediglich der Sortierung bzw. Darstellung der Schadenszenarien in der Risikobewertung.
+**Bewertungskriterien**  
+    Diese Multi-Value-Kategorie verknüpft das Schadenszenario mit den Bewertungskriterien. Für jedes Bewertungskriterium kann eine Ausprägung festgelegt werden.
+
+Beispiel:
+============== ==========================  ==============================
+Kennzeichnung   Bezeichnung                 Bewertungskriterium
+============== ==========================  ==============================
+1              Finanzielle Auswirkungen     Gering: Weniger als 5.000 EUR
+                                            Normal: Von 5.000 bis 50.000 EUR
+                                            Hoch: Von 50.000 bis 500.000 EUR
+                                            Sehr hoch: Mehr als 500.000 EUR
+============== ==========================  ==============================
 
 
 ********************
-Objekttyp Gefährdung
+Objekttyp Bedrohung
 ********************
 
 .. image:: img/threat_100x100.jpg
      :class: floatright
 
-Der Objekttyp "Gefährdung" bildet die Gefährdungen aus den Bausteinen des Grundschutzkompendium ab. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Gefährdung:
+Der Objekttyp "Bedrohung" bildet die Bedrohungen für die Risikoeinschätzungen ab. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Bedrohung:
 
 **Allgemein** *(i-doit Standardkategorie)*
     Gehört zu jedem Objekt.
-**Bausteine**  
-    Diese Multivalue-Kategorie verknüpft die Gefährdung mit den zugehörigen Bausteinen.
-**Gefährdung** 
-    Diese Kategorie enthält die textuellen Beschreibungen der Gefährdung aus dem Grundschutzkompendium, wie z.B. Nummer (nur bei Elementargefährdungen), Titel und Beschreibung.
+**Bedrohung**  
+    Hier können Kennzeichnung, Kategorie, Katalog, Kapitel und Abschnitt der Bedrohung dokumentiert werden, was sinnvoll ist, wenn diese aus einem Katalog (z.B. dem Grundschutz-Kompendium) stammt. Außerdem können die Schutzziele (Vertaulichkeit, Intigrität, Verfügbarkeit) dokumentiert werden.
+**Empfehlungen nach ISO27002** 
+    Diese Kategorie halt zwei Textfelder für die Empfehlungen nach ISO27002 bereit. Entsprechende Importe können wir derzeit aus Lizenzgründen leider nicht anbieten.
+**ISMS: Wird verwendet in** *(i-doit Standardkategorie)* 
+    Ein variabler Report, der alle Objekte auflistet, die diese Bedrohung "benutzen".
+**Typische Schwachstellen** *(i-doit Standardkategorie)* 
+    Ist eine Multi-Value Kategorie, in der Schwachstellen aus der Liste aller vorhanden Schwachstellen ausgewählt werden können.
 **Zugriff** *(i-doit Standardkategorie)* 
-    Über die Zugriffs-Kategorie ist die Gefährdung mit der zugehörigen Bausteinbeschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt.
+    Über die Zugriffs-Kategorie kann die Bedrohung z.B. mit der Beschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt werden.
 
+********************
+Objekttyp Schwachstelle
+********************
 
-*****************************
-Objekttyp Informationsverbund
-*****************************
-
-.. image:: img/scope_100x100.jpg
+.. image:: img/vulnerability_100x100.jpg
      :class: floatright
 
-Für jeden Informationsverbund gibt es genau ein Objekt vom Typ "Informationsverbund". In der Regel gibt es also nur ein Objekt vom Typ Informationsverbund, das VIVA2-Addon bietet aber auch die Möglichkeit, mehrere Informationsverbünde zu dokumentieren. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Informationsverbund:
-
-**Allgemein** *(i-doit Standardkategorie)* 
-    Gehört zu jedem Objekt.
-**IT-Grundschutz (Informationsverbund)** 
-    Dies ist eine Kategorien-Gruppe, die die folgenden vier Kategorien beinhaltet:
-    
-    **Informationsverbund**
-        Hier werden die grundlegenden Informationen zum Informationsverbund dokumentiert wie der bereinigte Netzplan und die Leitlinie zur Informationssicherheit
-    **Infrastrukturanalyse**
-        Diese Multivalue-Kategorie zeigt alle mit diesem Informationsverbund über die rückwärtige Kategorie "Informationsverbünde" direkt verknüpften Objekte an. Mehr dazu findet man unter :doc:`strukturanalyse`.
-    **IT-Grundschutz-Check**
-        Die Übersichtsseite zeigt alle durch die Bausteine zugewiesenen Anforderungen, sortiert nach Baustein und Anforderungsnummer. Mehr dazu findet man unter :doc:`it-grundschutz-check`.
-    **Prozessbausteine**
-        Hier können die Prozessbausteine zugewiesen werden, die für den gesamten Informationsverbund gelten. Aus technischer Sicht können auch  Systembausteine zugewiesen werden, in der Regel werden diese jedoch den jeweiligen Zielobjekten bzw. Zielobjektgruppen zugewiesen. Mehr dazu findet man unter :doc:`strukturanalyse`.
-**Kontaktzuweisung** *(i-doit Standardkategorie)* 
-    Hier müssen die entsprechenden Rollen für den kompletten Informationsverbund eingetragen werden, allen voran natürlich der Informationssicherheitsbeauftragte (ISB).
-**Report: Anwendungen ohne Installation**
-    Dieser variable Report zeigt alle Anwendungen an, die auf keiner Maschine installiert sind (laut Dokumentation in i-doit). Es werden alle Anwendungen überprüft, die entweder direkt diesem Informationsverbund zugeordnet sind oder die Mitglieder einer Zielobjektgruppe sind, die diesem Informationsverbund zugeordnet ist.
-**Report: IT-Grundschutz-Check**
-    Dieser variable Report zeigt alle Anforderungen und deren Umsetzungsstatus an, die über Bausteine diesem Informationsverbund zugeordnet sind. Es werden dabei nicht nur die Anforderungen aus den direkt zugewiesenen Bausteinen berücksichtigt, sondern auch die aus den Bausteinen, die den zugewiesenen Zielobjekten/Zielobjektgruppen zugewiesen sind.
-**Report: Physische Hardware ohne Standort**
-    Dieser variable Report zeigt alle Objekte an, denen die Kategorie "Standort" zugewiesen ist, diese aber nicht gepflegt ist. Es werden alle Objekte überprüft, die entweder direkt diesem Informationsverbund zugeordnet sind oder die Mitglieder einer Zielobjektgruppe sind, die diesem Informationsverbund zugeordnet ist.
-**Report: Räume ohne Gebäude**
-    Dieser variable Report zeigt alle Räume an, bei denen die Standortkategorie nicht gepflegt ist oder bei denen das Standortobjekt keine Adresse eingetragen hat. Es werden alle Räume überprüft, die entweder direkt diesem Informationsverbund zugeordnet sind oder die Mitglieder einer Zielobjektgruppe sind, die diesem Informationsverbund zugeordnet ist.
-**Report: Räume ohne Raumnummer**
-    Dieser variable Report zeigt alle Räume an, bei denen keine Raumnummer eingetragen ist. Es werden alle Räume überprüft, die entweder direkt diesem Informationsverbund zugeordnet sind oder die Mitglieder einer Zielobjektgruppe sind, die diesem Informationsverbund zugeordnet ist.
-**Report: Vom Informationsverbund abgedeckt**
-    Dieser variable Report zeigt alle Objekte an, die entweder direkt diesem Informationsverbund zugeordnet sind oder die Mitglieder einer Zielobjektgruppe sind, die diesem Informationsverbund zugeordnet ist.
-
-
-**************************
-Objekttyp Zielobjektgruppe
-**************************
-
-.. image:: img/targetgroup_100x100.jpg
-     :class: floatright
-
-Im Rahmen der Strukturanalyse sollen "ähnliche" Zielobjekte zur Komplexitätsreduzierung gruppiert werden. Der Objekttyp Zielobjektgruppe dient der Abbildung dieser Gruppierung von Zielobjekten. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Zielobjektgruppe:
-
-**Allgemein** *(i-doit Standardkategorie)* 
-    Gehört zu jedem Objekt.
-**IT-Grundschutz (Zielobjekte)** 
-    Dies ist eine Kategorien-Gruppe, die die folgenden sieben Kategorien beinhaltet:
-    
-    **Informationsverbünde**
-        Diese Multivalue-Kategorie zeigt alle Informationsverbünde an, denen diese Zielobjektgruppe zugewiesen ist (über die rückwärtige Kategorie "Infrastrukturanalyse"). Auch wenn es technisch möglich ist, die Zielobjektgruppe mehreren Informationsverbünden zuzuweisen, sollte eine Zielobjektgrupp ein der Regel nur einem Informationsverbund zugeordnet werden. Mehr dazu findet man unter :doc:`strukturanalyse`.
-    **IT-Grundschutz-Check**
-        Die Übersichtsseite zeigt alle durch die Bausteine zugewiesenen Anforderungen, sortiert nach Baustein und Anforderungsnummer. Mehr dazu findet man unter :doc:`it-grundschutz-check`.
-    **Klassifikation von Informationen**
-        Hier kann die Klassifikation der Informationen vorgenommen werden, die laut BSI Standard 200-2 Teil der Dokumentation des Sicherheitsprozesses ist.
-    **Schutzbedarfsfeststellung**
-        Hier kann der Schutzbedarf für dieses Objekt oder diese Objektgruppe in den definierten Grundwerten festgelegt und begründed werden. Mehr dazu findet man unter :doc:`schutzbedarfsfeststellung`.
-    **Zugeordnete Bausteine**
-        Hier können die Bausteine zugeordneten werden, die für dieses Objekt oder diese Objektgruppe gelten sollen. In der Regel werden hier Systembausteine zugeordnet, es ist aber auch möglich hier Prozessbausteine zuzuweisen, wenn es für dieses Objekt oder diese Objektgruppe Abweichungen von den im Informationsverbund zugewiesenen Prozessbausteinen gibt. Mehr dazu findet man unter :doc:`strukturanalyse`.
-    **Zugewiesene Anforderungen**
-        Dies ist eine virtuelle Kategorie, die alle Anforderungen anzeigt, die durch die zugeordneten Bausteine zugewiesen werden.
-    **Zugewiesene Gefährdungen**
-        Dies ist eine virtuelle Kategorie, die alle Gefährdungen anzeigt, die durch die zugeordneten Bausteine zugewiesen werden.
-**Kontaktzuweisung** *(i-doit Standardkategorie)* 
-    Hier können die entsprechenden Ansprechpartner oder andere Rollen für diese Zielobjektgruppe eingetragen werden.
-**Objektgruppe** *(i-doit Standardkategorie)* 
-    Hier wird definiert, welche Objekte dieser Zielobjektgruppe zugeordnet sind. Bitte beachten, dass der Typ auf "statisch" gestellt sein muss, damit die ganzen :doc:`report` funktionieren.
-
-
-**********************************
-Objekttyp Kommunikationsverbindung
-**********************************
-
-.. image:: img/communication_link_100x100.jpg
-     :class: floatright
-
-Der Objekttyp "Kommunikationsverbindung" dient der Dokumentation der für den Informationsverbund relevanten Kommunikationsverbindungen. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Kommunikationsverbindung:
+Der Objekttyp "Schwachstelle" bildet die Schwachstellen für die Risikoeinschätzungen ab. Dieser Objekttyp kann in bestimmten Fällen Optional sein, z.B. wenn als Bedrohungen die Gefährdungen aus dem IT-Grundschutz verwendet werden, die schon eine Kombination aus Bedrohung und Schwachstelle darstellen.
+In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Schwachstelle:
 
 **Allgemein** *(i-doit Standardkategorie)*
     Gehört zu jedem Objekt.
-**IT-Grundschutz (Zielobjekte)** 
-    Diese Kategoriegruppierung dient der Zuordnung zum Informationsverbund, der Schutzbedarfsfeststellung, der Zuordnung von Bausteinen und dem IT-Grundschutz-Check (s. `Zielobjektgruppe <#objekttyp-zielobjektgruppe>`_ für eine ausführlichere Beschreibung).
-**Kommunikationsverbindung** 
-    Hier kann dokumentiert werden, welche Objekte oder Objektgruppen diese Kommunikationsverbindung verwenden. Von diesen Objekten wird der Schutzbedarf dann (nach dem Maximumprinzip) auf die Kommunikationsverbindung vererbt. Außerdem kann zur Veranschaulichung der Netzplan mit der hervorgehobenen Kommunikationsverbindung verlinkt werden.
-**Kontaktzuweisung** *(i-doit Standardkategorie)*
-    Hier sollen die Hauptansprechpartner für die Kommunikationverbindung dokumentiert werden.
+**Schwachstelle**  
+    Hier können Kennzeichnung, Kategorie, Katalog, Kapitel und Abschnitt der Schwachstelle dokumentiert werden.
+**ISMS: Wird verwendet in** *(i-doit Standardkategorie)* 
+    Ein variabler Report, der alle Objekte auflistet, die diese Schwachstelle "benutzen".
+**Zugriff** *(i-doit Standardkategorie)* 
+    Über die Zugriffs-Kategorie kann die Bedrohung z.B. mit der Beschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt werden.
+
+********************
+Objekttyp SOA-Maßnahme
+********************
+
+.. image:: img/SOA_controls_100x100.jpg
+     :class: floatright
+
+Der Objekttyp SOA-Maßnahme wurde vor allem für selbst definierte Maßnahmen geschaffen. Natürlich können Sie hier auch Maßnahmen aus Katalogen importieren, es ist jedoch sinnvoll hier auch bereits im Unternehmen bestehende Maßnahmen zu dokumentieren, da die SOA-Maßnahmen die Anhang-A Maßnahmen aus der ISO 27001 umsetzen können.
+In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ SOA-Maßnahme:
+
+**Allgemein** *(i-doit Standardkategorie)*
+    Gehört zu jedem Objekt.
+**Empfehlungen nach ISO27002** 
+    Diese Kategorie halt zwei Textfelder für die Empfehlungen nach ISO27002 bereit. Entsprechende Importe können wir derzeit aus Lizenzgründen leider nicht anbieten.
+**Maßnahme**  
+    Hier können Kennzeichnung, Referenz, Stammdaten, Genehmigung, Kapitel und Abschnitt der Maßnahme dokumentiert werden. Weiterhin sollten die für die SOA relevanten Felder Anwendbarkeit und Begründung der Anwendbarkeit gepflegt werden. Der Umsetzungsstatus und eine Bemerkung zur Umsetzung kann man ebenfalls dokumentieren, wobei für den Umsetzungstatus keine vordefinierten Werte im Auslieferungszustand enthalten sind.
+**ISMS: Wird verwendet in** *(i-doit Standardkategorie)* 
+    Ein variabler Report, der alle Objekte auflistet, die diese SOA-Maßnahme "benutzen".
+**Zugriff** *(i-doit Standardkategorie)* 
+    Über die Zugriffs-Kategorie kann die Bedrohung z.B. mit der Beschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt werden.
+
+********************
+Objekttyp Maßnahme Anhang A
+********************
+
+.. image:: img/controls_AnnexA_100x100.jpg
+     :class: floatright
+
+Der Objekttyp Anhang A Maßnahme sollte nach der :doc:`einrichtung` des Add-ons die 114 Anhang A Maßnahmen aus der ISO27001 beinhalten. Hauptzweck der Anhang A Maßnahmen ist der Abgleich mit den SOA-Maßnahmen.
+In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Maßnahme Anhang A:
+
+**Allgemein** *(i-doit Standardkategorie)*
+    Gehört zu jedem Objekt.
+**Anwendbarkeit** 
+    Diese Kategorie ist eine der wichtigsten im ISMS-Addon. Hier wird gepflegt, ob die Maßnahme einbezogen wird oder nicht. Dafür muss eine Begründung hinterlegt werden. Es können außerdem SOA-Maßnahmen ausgewählt werden, die diese Anhang A Maßnahme umsetzen. Außerdem wird der Umsetzungsstatus für die Anhang A-Maßnahme an dieser Stelle dokumentiert. Alle diese Werte finden sich später in der Report-View "Erkärung der Anwendbarkeit (SOA)" wieder.
+**Maßnahme Anhang A**  
+    Hier können Kennzeichnung, Abschnitt, Kapitel eine Beschreibung der Maßnahme dokumentiert werden.
