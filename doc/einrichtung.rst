@@ -2,7 +2,7 @@
 Einrichtung
 ###########
 
-Bevor man mit dem ISMS-Addon Risikoeinschätzungen vornehmen kann, müssen 4 grundlegende Dinge vorbereitet werden:
+Bevor man mit dem ISMS-Add-on Risikoeinschätzungen vornehmen kann, müssen 4 grundlegende Dinge vorbereitet werden:
 
 * Bewertungskriterien festlegen
 * Schadenszenarien beschreiben
@@ -21,7 +21,7 @@ Der zweite Schritt ist die Einrichtung der Schadenszenarien:
 
 .. image:: img/einrichtung_2.PNG
 
-Die Schadenszenarien im Screenshot enstammen dem IT-Grundschutz Kompendium und werden für das ISMS-Addon als CSV-Datei mit ausgeliefert. Natürlich müssen Sie diese Schadenszenarien nicht importieren, sondern können auch eigene erstellen. Die Kennzeichnung der Schadenszenarien ist nur für die Reihenfolge der Darstellung relevant. In den Schadenszenarien sollte eine Ausprägung für jedes vorhandene Bewertungskriterium (in unserem Beispiel: Selten, Mittel, Häufig, Sehr häufig) erstellt werden. Die Ausprägungen werden später an den Schiebereglern für die Risikoeinschätzung erscheinen. Es bietet sich also an, diese möglichst kurz zu fassen und die ausformulierten Beschreibungen aus dem IT-Grundschutz durch Werte zu ersetzen, die für Ihr Unternehmen relevant sind. (Als Beispiel sehen Sie im Screenshot die Finanziellen Auswirkungen)
+Die Schadenszenarien im Screenshot enstammen dem IT-Grundschutz Kompendium und werden für das ISMS-Add-on als CSV-Datei mit ausgeliefert. Natürlich müssen Sie diese Schadenszenarien nicht importieren, sondern können auch eigene erstellen. Die Kennzeichnung der Schadenszenarien ist nur für die Reihenfolge der Darstellung relevant. In den Schadenszenarien sollte eine Ausprägung für jedes vorhandene Bewertungskriterium (in unserem Beispiel: Selten, Mittel, Häufig, Sehr häufig) erstellt werden. Die Ausprägungen werden später an den Schiebereglern für die Risikoeinschätzung erscheinen. Es bietet sich also an, diese möglichst kurz zu fassen und die ausformulierten Beschreibungen aus dem IT-Grundschutz durch Werte zu ersetzen, die für Ihr Unternehmen relevant sind. (Als Beispiel sehen Sie im Screenshot die Finanziellen Auswirkungen)
 
 Im dritten Schritt sollten Sie die Risikoformel definieren.
 
@@ -36,7 +36,7 @@ Die hochgeladene Datei können Sie nun zum Import verwenden. Wählen Sie oben re
 .. image:: img/einrichtung_4.PNG
 Da ein Risiko immer aus Bedrohung und Schwachstelle besteht, empfiehlt es sich, auch von diesen Objekttypen bereits Objekte zu erstellen. Alternativ bieten wir hier die Elementargefährdungen aus dem IT-Grundschutz, augesplittet nach Bedrohung und Schwachstelle zum Import an. Um diese zu importieren verfahren sie analog zu den Anhang A Maßnahmen.
 
-Die technische Einrichtung des ISMS-Addons ist jetzt abgeschlossen.
+Die technische Einrichtung des ISMS-Add-ons ist jetzt abgeschlossen.
 
 
 .. |pfeil| unicode:: U+23F5

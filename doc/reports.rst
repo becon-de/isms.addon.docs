@@ -2,7 +2,7 @@
 Reports
 #######
 
-Durch das ISMS-Addon wird ein variabler Report installiert, der der Report-Kategorie "Global" zugeordnet wird, wenn diese vorhanden ist. Außerdem werden 9 Report-Views mit ausgeliefert, die den Typ ISMS haben:
+Durch das ISMS-Add-on wird ein variabler Report installiert, der der Report-Kategorie "Global" zugeordnet wird, wenn diese vorhanden ist. Außerdem werden 9 Report-Views mit ausgeliefert, die den Typ ISMS haben:
 
 **Report: ISMS Risikoeinschätzung (Gruppe)**
     Dieser variable Report zeigt die Risikoeinschätzungen von allen Objektgruppen, denen das Objekt mit dem der Report aufgerufen wird zugeordnet ist. Er ist an die gleichnamige benutzerdefinierte Kategorie gebunden, die Sie verschiedenen Objekttypen zuordnen können. Auch den Report können Sie leicht individualisieren, da er mit dem Abfrage-Editor bearbeitet werden kann.

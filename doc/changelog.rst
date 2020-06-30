@@ -10,14 +10,14 @@ Deutsch
 =======
 ::
 
-	[Bug]  	        ISMS-Addon lässt sich auf einer frischen i-doit 1.14 Installation nicht installieren
+	[Bug]  	        ISMS-Add-on lässt sich auf einer frischen i-doit 1.14 Installation nicht installieren
 
 
 English
 =======
 ::
 
-	[Bug]  	        Installation of ISMS addon does not work in fresh installed i-doit 1-.14
+	[Bug]  	        Installation of ISMS Add-on does not work in fresh installed i-doit 1-.14
 
 
 ***********

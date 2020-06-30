@@ -4,7 +4,7 @@ from datetime import datetime
 
 # -- Customized ---------------------------------------------------
 
-html_title = "i-doit ISMS AddOn Dokumentation"
+html_title = "i-doit ISMS Add-on Dokumentation"
 master_doc = 'index'
 project = u'ISMS'
 #html_short_title = None

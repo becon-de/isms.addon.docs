@@ -2,7 +2,7 @@
 Übersicht
 #########
 
-Durch das ISMS-Addon wird eine neue Objekttypgruppe "ISMS" erstellt. Dieser Objekttypgruppe werden sechs neue Objekttypen zugeordnet:
+Durch das ISMS-Add-on wird eine neue Objekttypgruppe "ISMS" erstellt. Dieser Objekttypgruppe werden sechs neue Objekttypen zugeordnet:
 
 * `Bedrohung <objekttypen.html#objekttyp-bedrohung>`_
 * `Bewertungskriterium <objekttypen.html#objekttyp-bewertungskriterium>`_
@@ -14,4 +14,4 @@ Durch das ISMS-Addon wird eine neue Objekttypgruppe "ISMS" erstellt. Dieser Obje
 
 Für fast alle Objekttypen stehen dabei mögliche CSV-Import Dateien bereit. Die Objekte und Objekttypen sind dabei jedoch wie in i-doit gewohnt leicht an die eigenen Bedürfnisse anzupassen.
 
-Das ISMS-Addon installiert mehrere :doc:`reports` zur erweiterten Auswertung und Dokumentation des ISMS.
+Das ISMS-Add-on installiert mehrere :doc:`reports` zur erweiterten Auswertung und Dokumentation des ISMS.

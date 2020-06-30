@@ -7,7 +7,7 @@ Die Installation des ISMS Add-Ons entspricht dem Standardvorgehen für die Insta
 * Einloggen in des i-doit Admin-Center
 * Auf den Reiter "Add-ons" gehen
 * Auf den Button "Install/update Add-on" klicken
-* Das ZIP-Paket des Addons auswählen
+* Das ZIP-Paket des Add-ons auswählen
 * Auf den Knopf "Upload und install" klicken
 * Fertig
 

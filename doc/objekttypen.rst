@@ -2,7 +2,7 @@
 ISMS-Objekttypen
 #################
 
-Das ISMS-Addon führt sechs neue Objekttypen ein, die alle in der Objekttypgruppe "IT-Grundschutz" eingeordnet werden:
+Das ISMS-Add-on führt sechs neue Objekttypen ein, die alle in der Objekttypgruppe "IT-Grundschutz" eingeordnet werden:
 
 ******************
 Objekttyp Bewertungskriterium
@@ -122,6 +122,6 @@ In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Ma
 **Allgemein** *(i-doit Standardkategorie)*
     Gehört zu jedem Objekt.
 **Anwendbarkeit** 
-    Diese Kategorie ist eine der wichtigsten im ISMS-Addon. Hier wird gepflegt, ob die Maßnahme einbezogen wird oder nicht. Dafür muss eine Begründung hinterlegt werden. Es können außerdem SOA-Maßnahmen ausgewählt werden, die diese Anhang A Maßnahme umsetzen. Außerdem wird der Umsetzungsstatus für die Anhang A-Maßnahme an dieser Stelle dokumentiert. Alle diese Werte finden sich später in der Report-View "Erkärung der Anwendbarkeit (SOA)" wieder.
+    Diese Kategorie ist eine der wichtigsten im ISMS-Add-on. Hier wird gepflegt, ob die Maßnahme einbezogen wird oder nicht. Dafür muss eine Begründung hinterlegt werden. Es können außerdem SOA-Maßnahmen ausgewählt werden, die diese Anhang A Maßnahme umsetzen. Außerdem wird der Umsetzungsstatus für die Anhang A-Maßnahme an dieser Stelle dokumentiert. Alle diese Werte finden sich später in der Report-View "Erkärung der Anwendbarkeit (SOA)" wieder.
 **Maßnahme Anhang A**  
     Hier können Kennzeichnung, Abschnitt, Kapitel eine Beschreibung der Maßnahme dokumentiert werden.
