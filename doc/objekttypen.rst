@@ -8,7 +8,7 @@ Das ISMS-Addon führt sechs neue Objekttypen ein, die alle in der Objekttypgrupp
 Objekttyp Bewertungskriterium
 ******************
 
-.. image:: img/Criteria100x100.jpg
+.. image:: img/protection_category_100x100.jpg
      :class: floatright
 
 Der Objekttyp "Bewertungskriterium" bildet die Grundlage zur Bewertung von Risiken. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Bewertungskriterium:
@@ -92,7 +92,7 @@ In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Sc
 Objekttyp SOA-Maßnahme
 ********************
 
-.. image:: img/SOA_controls_100x100.jpg
+.. image:: img/control_100x100.jpg
      :class: floatright
 
 Der Objekttyp SOA-Maßnahme wurde vor allem für selbst definierte Maßnahmen geschaffen. Natürlich können Sie hier auch Maßnahmen aus Katalogen importieren, es ist jedoch sinnvoll hier auch bereits im Unternehmen bestehende Maßnahmen zu dokumentieren, da die SOA-Maßnahmen die Anhang-A Maßnahmen aus der ISO 27001 umsetzen können.
@@ -113,7 +113,7 @@ In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ SO
 Objekttyp Maßnahme Anhang A
 ********************
 
-.. image:: img/controls_AnnexA_100x100.jpg
+.. image:: img/control_annex_a_100x100.jpg
      :class: floatright
 
 Der Objekttyp Anhang A Maßnahme sollte nach der :doc:`einrichtung` des Add-ons die 114 Anhang A Maßnahmen aus der ISO27001 beinhalten. Hauptzweck der Anhang A Maßnahmen ist der Abgleich mit den SOA-Maßnahmen.

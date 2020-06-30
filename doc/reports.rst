@@ -30,6 +30,8 @@ Durch das ISMS-Addon wird ein variabler Report installiert, der der Report-Kateg
 **Report-View: ISMS Risikomatrix**
     Diese Report View stellt die Risikomatrix vor Risikobehandlung und nach Risikobehandlung dar. Die Achsenbeschriftungen ergeben sich dabei aus den definierten Bewertungskriterien. Bei Klick auf die Anzahl der Risikoeinschätzungen einer bestimmten Eintittswahrscheinlichkeit/Auswirkungs Kombination wird die Report-View "ISMS Risikoeinschätzung" reduziert auf die betroffenen Risikoeinschätzungen dargestellt.
 
+    ..  image:: img/risk_matrix.PNG 
+
     Sie haben die Möglichkeit die Risikomatrix nach Anwendungsbereich zu Filtern. Für diese View ist auch der Standortfilter einstellbar, der die Ansicht auf Risikoeinschätzungen unterhalb des ausgewählten Objektes einschränkt.
 
 **Report-View: ISMS Risikoeinschätzung**
