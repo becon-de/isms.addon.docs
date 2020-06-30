@@ -6,9 +6,9 @@ Durch das ISMS-Addon wird eine neue Objekttypgruppe "ISMS" erstellt. Dieser Obje
 
 * `Bedrohung <objekttypen.html#objekttyp-bedrohung>`_
 * `Bewertungskriterium <objekttypen.html#objekttyp-bewertungskriterium>`_
-* `Maßnahme Anhang A <objekttypen.html#objekttyp-maßnahme-anhang-a>`_
-* `SOA-Maßnahme <objekttypen.html#objekttyp-soa-maßnahme>`_
-* `Schadenszenario <objekttypen.html#objekttyp-schadenszenario>`_
+* `Maßnahme Anhang A <objekttypen.html#objekttyp-masznahme-anhang-a>`_
+* `SOA-Maßnahme <objekttypen.html#objekttyp-soa-masznahme>`_
+* `Schadensszenario <objekttypen.html#objekttyp-schadensszenario>`_
 * `Schwachstelle <objekttypen.html#objekttyp-schwachstelle>`_
 
 

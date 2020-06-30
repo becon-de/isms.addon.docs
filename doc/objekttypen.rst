@@ -19,7 +19,7 @@ Der Objekttyp "Bewertungskriterium" bildet die Grundlage zur Bewertung von Risik
     Hier muss das Level festgesetzt werden, das für die Berechnung der Risikohöhe ausschlaggebend ist. Außerdem können eine Beschreibung der Eintrittswahrscheinlichkeit und eine Benennung der Schadensaußmaß für das Bewertungskriterium festlegegt werden.
 
 *********************
-Objekttyp Schadenzenario
+Objekttyp Schadensszenario
 *********************
 
 .. image:: img/incident_scenario_100x100.jpg
