@@ -62,9 +62,9 @@ Der Objekttyp "Bedrohung" bildet die Bedrohungen für die Risikoeinschätzungen 
     Hier können Kennzeichnung, Kategorie, Katalog, Kapitel und Abschnitt der Bedrohung dokumentiert werden, was sinnvoll ist, wenn diese aus einem Katalog (z.B. dem Grundschutz-Kompendium) stammt. Außerdem können die Schutzziele (Vertaulichkeit, Intigrität, Verfügbarkeit) dokumentiert werden.
 **Empfehlungen nach ISO27002** 
     Diese Kategorie halt zwei Textfelder für die Empfehlungen nach ISO27002 bereit. Entsprechende Importe können wir derzeit aus Lizenzgründen leider nicht anbieten.
-**ISMS: Wird verwendet in** *(i-doit Standardkategorie)* 
+**ISMS: Wird verwendet in** 
     Ein variabler Report, der alle Objekte auflistet, die diese Bedrohung "benutzen".
-**Typische Schwachstellen** *(i-doit Standardkategorie)* 
+**Typische Schwachstellen**
     Ist eine Multi-Value Kategorie, in der Schwachstellen aus der Liste aller vorhanden Schwachstellen ausgewählt werden können.
 **Zugriff** *(i-doit Standardkategorie)* 
     Über die Zugriffs-Kategorie kann die Bedrohung z.B. mit der Beschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt werden.
@@ -83,7 +83,7 @@ In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Sc
     Gehört zu jedem Objekt.
 **Schwachstelle**  
     Hier können Kennzeichnung, Kategorie, Katalog, Kapitel und Abschnitt der Schwachstelle dokumentiert werden.
-**ISMS: Wird verwendet in** *(i-doit Standardkategorie)* 
+**ISMS: Wird verwendet in** 
     Ein variabler Report, der alle Objekte auflistet, die diese Schwachstelle "benutzen".
 **Zugriff** *(i-doit Standardkategorie)* 
     Über die Zugriffs-Kategorie kann die Bedrohung z.B. mit der Beschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt werden.
@@ -104,7 +104,7 @@ In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ SO
     Diese Kategorie halt zwei Textfelder für die Empfehlungen nach ISO27002 bereit. Entsprechende Importe können wir derzeit aus Lizenzgründen leider nicht anbieten.
 **Maßnahme**  
     Hier können Kennzeichnung, Referenz, Stammdaten, Genehmigung, Kapitel und Abschnitt der Maßnahme dokumentiert werden. Weiterhin sollten die für die SOA relevanten Felder Anwendbarkeit und Begründung der Anwendbarkeit gepflegt werden. Der Umsetzungsstatus und eine Bemerkung zur Umsetzung kann man ebenfalls dokumentieren, wobei für den Umsetzungstatus keine vordefinierten Werte im Auslieferungszustand enthalten sind.
-**ISMS: Wird verwendet in** *(i-doit Standardkategorie)* 
+**ISMS: Wird verwendet in** 
     Ein variabler Report, der alle Objekte auflistet, die diese SOA-Maßnahme "benutzen".
 **Zugriff** *(i-doit Standardkategorie)* 
     Über die Zugriffs-Kategorie kann die Bedrohung z.B. mit der Beschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt werden.
