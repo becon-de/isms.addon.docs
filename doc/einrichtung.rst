@@ -29,11 +29,18 @@ Diese Einstellung können Sie in den Mandanteneinstellungen unter Verwaltung->Sy
 
 Im vierten Schritt sollten Sie eigene Maßnahmen erstellen. Natürlich können Sie hier auch mit dem bereitgestellten Import der 1657 Anforderungen aus dem Grundschutz-Kompendium arbeiten.
 
+Alle Dateien, die zum Import angeboten werden finden Sie in den ISMS-Bundle oder Testversionen indem Sie zunächst die ZIP-Datei entpacken und anschließend zu folgendem Pfad navigieren:
+**/src/classes/modules/iso27001/Catalogs**
+
 Im fünften und letzten Schritt sollten Sie den mitgelieferten Import für die Anhang A Maßnahmen (wahlweise deutsch oder englisch) importieren.
 Navigieren Sie dazu zum CSV-Import (Extras->CMDB-Import->CSV Import) und laden Sie die entsprechende Datei hoch.
+
 .. image:: img/einrichtung_3.PNG
+
 Die hochgeladene Datei können Sie nun zum Import verwenden. Wählen Sie oben rechts das Import Profil "ISMS universal (new)" aus und starten Sie den Import mit dem Button "Importieren" ganz unten rechts.
+
 .. image:: img/einrichtung_4.PNG
+
 Da ein Risiko immer aus Bedrohung und Schwachstelle besteht, empfiehlt es sich, auch von diesen Objekttypen bereits Objekte zu erstellen. Alternativ bieten wir hier die Elementargefährdungen aus dem IT-Grundschutz, augesplittet nach Bedrohung und Schwachstelle zum Import an. Um diese zu importieren verfahren sie analog zu den Anhang A Maßnahmen.
 
 Die technische Einrichtung des ISMS-Add-ons ist jetzt abgeschlossen.

@@ -23,7 +23,7 @@ Das Add-on ISMS dient dazu, das Risiko- und Maßnahmenmanagement direkt an den j
     uebersicht
     objekttypen
     reports
-    
+    risikoeinschätzung
 
 .. toctree::
     :maxdepth: 1
