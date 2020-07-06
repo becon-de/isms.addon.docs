@@ -12,8 +12,7 @@ Ein Klick auf die Kategorie Risikoeinschätzung öffnet die Multi-Value Kategori
 
 Zunächst sind Bedrohung und Schwachstelle auszuwählen, die zusammen das Risiko ergeben. Außerdem können betroffene Schutzziele hinterlegt werden (Im Standard nur Vertraulichkeit, Integrität, Verfügbarkeit. Weitere Werte, wie Authentizität, können unter Verwaltung |pfeil| CMDB Einstellungen |pfeil| Dialog-Admin |pfeil| ISMS:Schutzziele hinzugefügt werden)
 
-Im Abschnitt "Risikobewertung" finden sich nun Schieberegler, mit denen das Risiko anhand der `Schadensszenarien <objekttypen.html#objekttyp-schadensszenario>` bewertet werden kann.
-An die Bewertung der Schadenszenarien schließt sich eine Einschätzung zur Eintrittswahrscheinlichkeit, ebenfalls per Schieberegler an.
+Im Abschnitt "Risikobewertung" finden sich nun Schieberegler, mit denen das Risiko anhand der   `Schadensszenarien <objekttypen.html#objekttyp-schadensszenario>`_  bewertet werden kann. An die Bewertung der Schadenszenarien schließt sich eine Einschätzung zur Eintrittswahrscheinlichkeit, ebenfalls per Schieberegler an.
 
 Für die Risikobewertung können noch existierende Maßnahmen ausgewählt werden und ein Kommentar zur Riskobewertung angegeben werden. Das Datum der Risikobewertung und die Wiedervorlage sind Datum-Felder, die sich hervorragend in Reports auswerten lassen.
 
@@ -32,4 +31,5 @@ Natürlich können diese auch im Nachhinein noch angepasst werden und eine Eintr
 
 Die Risikoeinschätzungen können natürlich nicht nur für einzelne Objekte, sondern auch für Objektgruppen (normalerweise in der Objekttypgruppe "Andere" zu finden) vorgenommen werden.
 Damit die Risikoeinschätzungen dann an den einzelnen Objekten der Gruppe sichtbar werden, empfielt sich die Konfiguration der der mitgelieferten benutzerdefinierten Kategorie "Riskoeinschätzung-Gruppe" unter |pfeil| CMDB Einstellungen |pfeil| Benutzerdefinierte Kategorien |pfeil| ISMS Risikoeinschätzung (Gruppe).
+
 .. |pfeil| unicode:: U+23F5
