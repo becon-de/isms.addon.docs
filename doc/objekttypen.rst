@@ -2,7 +2,7 @@
 ISMS-Objekttypen
 #################
 
-Das ISMS-Add-on führt sechs neue Objekttypen ein, die alle in der Objekttypgruppe "IT-Grundschutz" eingeordnet werden:
+Das ISMS-Add-on führt sechs neue Objekttypen ein, die alle in der Objekttypgruppe "ISMS" eingeordnet werden:
 
 ******************
 Objekttyp Bewertungskriterium
@@ -16,7 +16,7 @@ Der Objekttyp "Bewertungskriterium" bildet die Grundlage zur Bewertung von Risik
 **Allgemein** *(i-doit Standardkategorie)* 
     Gehört zu jedem Objekt.
 **Bewertungskriterium** 
-    Hier muss das Level festgesetzt werden, das für die Berechnung der Risikohöhe ausschlaggebend ist. Außerdem können eine Beschreibung der Eintrittswahrscheinlichkeit und eine Benennung der Schadensaußmaß für das Bewertungskriterium festlegegt werden.
+    Hier muss das Level festgesetzt werden, das für die Berechnung der Risikohöhe ausschlaggebend ist. Das Level ist die Berechnungsgrundlage für die Berechnung der Risikohöhe. Außerdem können eine Beschreibung der Eintrittswahrscheinlichkeit und eine Benennung der Schadensaußmaß für das Bewertungskriterium festlegegt werden.
 
 *********************
 Objekttyp Schadensszenario
@@ -25,14 +25,14 @@ Objekttyp Schadensszenario
 .. image:: img/incident_scenario_100x100.jpg
      :class: floatright
 
-Der Objekttyp "Anforderung" bildet die Anforderungen aus den Bausteinen des Grundschutzkompendium ab. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Anforderung:
+Der Objekttyp "Schadensszenario" bildet die Schadensszenarien/Schadenskategorien ab, in denen man die Schadensauswirkung einschätzen kann. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Schadensszenario:
 
 **Allgemein** *(i-doit Standardkategorie)*
     Gehört zu jedem Objekt.
 **Schadenszenario** 
-    Hier kann eine Kennzeichnung (Ganzzahl) eingestellt werden. Diese dient lediglich der Sortierung bzw. Darstellung der Schadenszenarien in der Risikobewertung.
+    Hier muss eine Kennzeichnung (Ganzzahl) eingestellt werden. Diese dient lediglich der Sortierung bzw. Darstellung der Schadenszenarien in der Risikobewertung. Dieser Wert darf aber nicht 0 sein.
 **Bewertungskriterien**  
-    Diese Multi-Value-Kategorie verknüpft das Schadenszenario mit den Bewertungskriterien. Für jedes Bewertungskriterium kann eine Ausprägung festgelegt werden.
+    Diese Multi-Value-Kategorie verknüpft das Schadenszenario mit den Bewertungskriterien. Für jedes Bewertungskriterium kann eine textuelle Ausprägung festgelegt werden.
 
 ..  list-table::
     :name Beispiel:
@@ -76,7 +76,7 @@ Objekttyp Schwachstelle
 .. image:: img/vulnerability_100x100.jpg
      :class: floatright
 
-Der Objekttyp "Schwachstelle" bildet die Schwachstellen für die Risikoeinschätzungen ab. Dieser Objekttyp kann in bestimmten Fällen Optional sein, z.B. wenn als Bedrohungen die Gefährdungen aus dem IT-Grundschutz verwendet werden, die schon eine Kombination aus Bedrohung und Schwachstelle darstellen.
+Der Objekttyp "Schwachstelle" bildet die Schwachstellen für die Risikoeinschätzungen ab. Dieser Objekttyp kann in bestimmten Fällen optional sein, z.B. wenn als Bedrohungen die Gefährdungen aus dem IT-Grundschutz verwendet werden, die schon eine Kombination aus Bedrohung und Schwachstelle darstellen.
 In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Schwachstelle:
 
 **Allgemein** *(i-doit Standardkategorie)*
@@ -95,7 +95,7 @@ Objekttyp SOA-Maßnahme
 .. image:: img/control_100x100.jpg
      :class: floatright
 
-Der Objekttyp SOA-Maßnahme wurde vor allem für selbst definierte Maßnahmen geschaffen. Natürlich können Sie hier auch Maßnahmen aus Katalogen importieren, es ist jedoch sinnvoll hier auch bereits im Unternehmen bestehende Maßnahmen zu dokumentieren, da die SOA-Maßnahmen die Anhang-A Maßnahmen aus der ISO 27001 umsetzen können.
+Der Objekttyp SOA-Maßnahme beinhaltet die expliziten Maßnahmen, die im Unternehmen angewandt werden oder geplant sind anzuwenden. Natürlich können auch (SOA-)Maßnahmen aus Katalogen importiert werden. SOA-Maßnahmen können mit Maßnahmen Anhang A verknüpft werden.
 In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ SOA-Maßnahme:
 
 **Allgemein** *(i-doit Standardkategorie)*

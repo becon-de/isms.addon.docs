@@ -3,6 +3,78 @@ Changelog
 #########
 
 ***********
+Version 1.4
+***********
+
+Deutsch
+=======
+::
+
+[Neue Funktion] Asymmetrische Risikomatrix, Risikomatrix-Farbwerte können nun überschrieben werden
+[Neue Funktion] Name, Farbe und Anzahl von Risikoklassen sind nun konfigurierbar
+[Neue Funktion] Neues Menüpunkt "ISMS" unter "Extras"
+[Neue Funktion] Neues Recht "ISMS" im Rechtesystem
+[Verbesserung]  Erweiterung der verfügbaren Ausgabespalten bei der Listenasicht von Risikoeinschätzungen
+[Verbesserung]  Druckansichten der Report-Views überarbeitet
+[Verbesserung]  Anpassung des Wording in der Risikoeinschätzung
+[Verbesserung]  Die aktualisierte Dokumentation zum ISMS-Addons ist ab jetzt hier zu finden: https://isms.readthedocs.io
+[Änderung]      Konfiguration der Risiko-Klassen und -Formel unter "Extras" - nicht mehr in den Mandanteneinstellungen
+[Änderung]      Mindestvoraussetzung i-doit Version 1.14.2 oder höher
+[Änderung]      Anpassung aller Kategorien und Report-Views auf die neuen Risikoklassen
+[Bug]           Es wurden falsche Werte für das Attribut "Eintrittswahrscheinlichkeit nach Behandlung" im Report-Manager ausgegeben
+[Bug]           Bei der Kategorie Anwendbarkeit kam es im Reportmanager zu einer Fehlermeldung
+[Bug]           Es gab einen Fehler beim Duplizieren von Anhang A Maßnahmen
+[Bug]           Risikoeinschätzungen mit Kommazahlen wurden in der Risikomatrix teilweise nicht aufgeführt
+[Bug]           Es gab falsche Verknüpfungen in Risikoeinschätzungen nach dem Duplizieren von Objekten
+[Bug]           Report "ISMS Restrisiko nach Level" wertete das Level nicht aus
+[Bug]           Schutzziele wurden neu angelegt, wenn Objekte oder Objektgruppen, die Risikoeinschätzungen hatten, dupliziert wurden.
+[Bug]           Risikobehandlungsoptionen ließen sich nicht editieren
+[Bug]           Falsches Wording in View "Risikobehandlungsplan"
+[Bug]           Anwendbarkeit von SOA-Maßnahme wurde beim Hinzufügen zu einer Risikoeinschätzung nicht automatisch auf "Ja" gesetzt, wenn Kategorie Maßnahme nicht vorhanden war.
+[Bug]           Archivierte und gelöschte Objekte sollten nicht in Report-Views angezeigt werden
+[Bug]           Die View "ISMS Risikoeinschätzung objektbasiert" zeigte alle Schutzziele und nicht nur die zugeordneten.
+[Bug]           Reindexierung des Sucheindexes nach CSV-Import warf eine Fehlermeldung
+[Bug]           Nach Editieren der ISMS-Objekttypen gingen die relativen Pfade zu den Objekttyp-Icons verloren
+[Bug]           Im Report-Manager gab die Spalte "Eintrittswahrscheinlichkait nach der Behandlung" das Gleiche aus wie "Eintrittswahrscheinlichkeit"
+[Bug]           Die Report-View Risikobehandlungsplan funktionierte nicht, wenn die Kategorie "Bedrohung" leer ist
+[Bug]           Es erschiene ein Datenbankfehler beim Löschen von unfertigen/archivierten/gelöschten Kategorieeinträgen
+
+
+English
+=======
+::
+
+[New feature]   Asymmetrical risk matrix, risk matrix colors ​​can now be overwritten
+[New feature]   Name, color and number of risk classes can now be configured
+[New feature]   New menu item "ISMS" in "Extras"
+[New feature]   New right "ISMS" in Authorization system
+[Improvement]   Extension of available output columns in the list view of risk assessments
+[Improvement]   Improved the print views of the report views
+[Improvement]   Adaptation of the wording in the risk assessment
+[Improvement]   The updated documentation for the ISMS addon can now be found here: https://isms.readthedocs.io (only in german yet)
+[Change]        Configuration of the risk classes and formula in "Extras" - no longer in the Tenantsettings
+[Change]        Required i-doit version is 1.14.2 or higher
+[Change]        Adapt all categories and report views to the new risk classes
+[Bug]           Wrong values ​​for attribute "Residual Risk Level" were displayed in the Report Manager
+[Bug]           An error message appeared in the report manager for the Applicability category
+[Bug]           There was an error duplicating Annex A Controls
+[Bug]           Risk assessments with decimal numbers were sometimes not listed in the risk matrix
+[Bug]           There were wrong links in risk assessments after duplicating objects
+[Bug]           Report "ISMS residual risk by level" did not evaluate the level
+[Bug]           Protection objectives were recreated when objects or object groups that had risk assessments were duplicated.
+[Bug]           Risk Treatment options could not be edited
+[Bug]           Incorrect wording in "Risk treatment plan" view
+[Bug]           Applicability of SOA Controls was not automatically set to "Yes" when adding to a risk assessment if the Control category was nonexistent.
+[Bug]           Archived and deleted objects should not be displayed in report views
+[Bug]           The view "ISMS risk assessment object-based" showed all protection objectives and not just the assigned ones.
+[Bug]           Reindexing the search index after CSV import threw an error message
+[Bug]           After editing the ISMS object types, the relative paths to the object type icons were lost
+[Bug]           In the report manager the column "Likelihood after treatment" the same value as "Likelihood"
+[Bug]           The report view risk treatment plan did not work, if category "Threat" is empty
+[Bug]           A database error was shown when deleting unfinished/archived/deleted category entries
+
+
+***********
 Version 1.3.3
 ***********
 

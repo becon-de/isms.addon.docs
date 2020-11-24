@@ -12,3 +12,5 @@ Die Installation des ISMS Add-Ons entspricht dem Standardvorgehen für die Insta
 * Fertig
 
 Einzige Besonderheit: Das Add-on trägt in der Liste den Namen ISO27001.
+
+Nach der Installation muss das ISMS-Addon noch konfiguriert werden. Informationen dazu finden Sie unter :doc:`einrichtung`.

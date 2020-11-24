@@ -2,11 +2,13 @@
 Risikoeinschätzung vornehmen
 #######
 
-An jedem Objekt in i-doit findet sich nach der Installation des ISMS-Addon der Ordner "ISMS". Bei einem Klick auf den Ordner öffnet sich eine Kategorie-Ansicht, in der Sie die ISMS Relevanz und den Anwendungsbereich des Objektes definieren können.
+An jedem Objekt in i-doit findet sich nach der Installation des ISMS-Addon der Kategorie-Ordner "ISMS". Bei einem Klick auf den Ordner öffnet sich eine Kategorie-Ansicht, in der die ISMS Relevanz und der Anwendungsbereich des Objektes definiert werden kann.
 
-Ein Klick auf die Kategorie Risikoeinschätzung öffnet die Multi-Value Kategorie "Risikoeinschätzung", in der Sie alle vorhanden Risikoeinschätzungen sehen und verwalten können.
+Ein Klick auf die Kategorie Risikoeinschätzung öffnet die Multi-Value Kategorie "Risikoeinschätzung", in der alle vorhanden Risikoeinschätzungen gesehen und verwalten werden können.
 
-Über den Button "Neu" können Sie eine neue Risikoeinschätzung erstellen:
+Ab Version 1.4 des ISMS-Addons können weitere Attribute der Risikoeinschätzung in die Listenansicht übernommen werden.
+
+Über den Button "Neu" kann eine neue Risikoeinschätzung erstellt werden:
 
 .. image:: img/risiko_1.PNG
 
@@ -18,9 +20,9 @@ Für die Risikobewertung können noch existierende Maßnahmen ausgewählt werden
 
 .. image:: img/risiko_2.PNG
 
-Nach der Risikobewertung können nun Angaben zur Risikobehandlung gemacht werden. Dabei können im Attribut Risikobehandlung die Werte aus der ISO 31000 ausgewählt werden. Bei den vorhanden Maßnahmen lassen sich beliebe Objekte vom Typ SOA-Maßnahme auswählen.
+Nach der Risikobewertung können nun Angaben zur Risikobehandlung gemacht werden. Dabei können im Attribut Risikobehandlung die Werte aus der ISO 31000 ausgewählt werden. Bei den Maßnahmen zur Risikobehandlung lassen sich beliebige Objekte vom Typ SOA-Maßnahme auswählen.
 
-Neben dem Eintragen einer Begründung kann in diesem Abschnitt auch der "Verantworliche für die Umsetzung" eingetragen werden. Mit dem Platzhalter für den eingeloggten Benutzer, der ab i-doit 1.14.2 verfügbar ist, lässt sich auch dieses Attribut hervorragend nutzen um z.B. einen Report über Maßnahmen des jeweiligen Users direkt im Dashboard zu verankern.
+Neben dem Eintragen einer Begründung kann in diesem Abschnitt auch diejenige Person, die "Zuständig für die Umsetzung" ist, eingetragen werden. Mit dem Platzhalter für den eingeloggten Benutzer, der ab i-doit 1.14.2 verfügbar ist, lässt sich auch dieses Attribut hervorragend nutzen um z.B. einen Report über Maßnahmen des jeweiligen Users direkt im Dashboard zu verankern.
 
 Notwendige Ressourcen und Kosten für die Umsetzung gehören genauso wie das späteste Umsetzungsdatum, der Status und die Dringlichkeit der Umsetzung zu den Attributen im Abschnitt "Risikobehandlung". Die beiden zuletzt genannten Attribute sind Dialog-Plus Felder, deren Werte sich wie gewohnt unter Verwaltung |pfeil| CMDB Einstellungen |pfeil| Dialog-Admin einstellen lassen.
 

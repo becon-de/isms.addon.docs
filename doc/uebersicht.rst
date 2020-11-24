@@ -12,6 +12,6 @@ Durch das ISMS-Add-on wird eine neue Objekttypgruppe "ISMS" erstellt. Dieser Obj
 * `Schwachstelle <objekttypen.html#objekttyp-schwachstelle>`_
 
 
-Für fast alle Objekttypen stehen dabei mögliche CSV-Import Dateien bereit. Die Objekte und Objekttypen sind dabei jedoch wie in i-doit gewohnt leicht an die eigenen Bedürfnisse anzupassen.
+Für fast alle Objekttypen stehen dabei mögliche CSV-Import Dateien bereit. Die Objekte und Objekttypen sind dabei jedoch wie in i-doit gewohnt leicht an die eigenen Bedürfnisse anzupassen. So unterstützt das ISMS z.B. bei der Berücksichtigung der :doc:`standortrechte`.
 
 Das ISMS-Add-on installiert mehrere :doc:`reports` zur erweiterten Auswertung und Dokumentation des ISMS.
