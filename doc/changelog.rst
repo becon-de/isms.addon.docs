@@ -15,7 +15,7 @@ Deutsch
 [Neue Funktion] Neues Menüpunkt "ISMS" unter "Extras"
 [Neue Funktion] Neues Recht "ISMS" im Rechtesystem
 [Verbesserung]  Erweiterung der verfügbaren Ausgabespalten bei der Listenasicht von Risikoeinschätzungen
-[Verbesserung]  Druckansichten der Report-Views überarbeitet
+[Verbesserung]  Druckansichten der Report-Views überarbeitet, Druckknopf hinzugefügt
 [Verbesserung]  Anpassung des Wording in der Risikoeinschätzung
 [Verbesserung]  Die aktualisierte Dokumentation zum ISMS-Addons ist ab jetzt hier zu finden: https://isms.readthedocs.io
 [Änderung]      Konfiguration der Risiko-Klassen und -Formel unter "Extras" - nicht mehr in den Mandanteneinstellungen
@@ -49,7 +49,7 @@ English
 [New feature]   New menu item "ISMS" in "Extras"
 [New feature]   New right "ISMS" in Authorization system
 [Improvement]   Extension of available output columns in the list view of risk assessments
-[Improvement]   Improved the print views of the report views
+[Improvement]   Improved the print views of the report views, added print button
 [Improvement]   Adaptation of the wording in the risk assessment
 [Improvement]   The updated documentation for the ISMS addon can now be found here: https://isms.readthedocs.io (only in german yet)
 [Change]        Configuration of the risk classes and formula in "Extras" - no longer in the Tenantsettings
