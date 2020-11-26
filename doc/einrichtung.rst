@@ -49,7 +49,7 @@ Die SOA-Maßnahmen können sowohl selbst angelegt als auch aus Katalogen oder sc
 
 Des Weiteren sollten -vor allem wenn eine ISO27001-Zertifizierung angestrebt wird- die Maßnahmen des Anhang A der ISO27001-Norm als Maßnahme Anhang A importiert werden.
 
-Alle Kataloge, die zum Import angeboten werden, sind in der ZIP-Datei des ISMS-Addons zu finden. Dazu muss zunächst die Zip-Datei entpackt und anschließend zu folgendem Pfad navigiert werden:
+Alle Kataloge, die zum Import angeboten werden, sind in der ZIP-Datei des ISMS-Add-ons zu finden. Dazu muss zunächst die Zip-Datei entpackt und anschließend zu folgendem Pfad navigiert werden:
 **/src/classes/modules/iso27001/Catalogs**
 
 Die mitgelieferten Kataloge können über den CSV-Import von i-doit (unter |pfeil| Extras |pfeil| CMDB-Import |pfeil| CSV Import) importiert werden. Nach dem Auswählen der hochgeladenen CSV-Datei muss das Import-Profil"ISMS universal (new)"verwendet werden.

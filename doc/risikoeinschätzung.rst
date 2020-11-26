@@ -2,11 +2,11 @@
 Risikoeinschätzung vornehmen
 #######
 
-An jedem Objekt in i-doit findet sich nach der Installation des ISMS-Addon der Kategorie-Ordner "ISMS". Bei einem Klick auf den Ordner öffnet sich eine Kategorie-Ansicht, in der die ISMS Relevanz und der Anwendungsbereich des Objektes definiert werden kann.
+An jedem Objekt in i-doit findet sich nach der Installation des ISMS-Add-on der Kategorie-Ordner "ISMS". Bei einem Klick auf den Ordner öffnet sich eine Kategorie-Ansicht, in der die ISMS Relevanz und der Anwendungsbereich des Objektes definiert werden kann.
 
 Ein Klick auf die Kategorie Risikoeinschätzung öffnet die Multi-Value Kategorie "Risikoeinschätzung", in der alle vorhanden Risikoeinschätzungen gesehen und verwalten werden können.
 
-Ab Version 1.4 des ISMS-Addons können weitere Attribute der Risikoeinschätzung in die Listenansicht übernommen werden.
+Ab Version 1.4 des ISMS-Add-ons können weitere Attribute der Risikoeinschätzung in die Listenansicht übernommen werden.
 
 Über den Button "Neu" kann eine neue Risikoeinschätzung erstellt werden:
 

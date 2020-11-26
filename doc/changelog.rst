@@ -17,7 +17,7 @@ Deutsch
 [Verbesserung]  Erweiterung der verfügbaren Ausgabespalten bei der Listenasicht von Risikoeinschätzungen
 [Verbesserung]  Druckansichten der Report-Views überarbeitet, Druckknopf hinzugefügt
 [Verbesserung]  Anpassung des Wording in der Risikoeinschätzung
-[Verbesserung]  Die aktualisierte Dokumentation zum ISMS-Addons ist ab jetzt hier zu finden: https://isms.readthedocs.io
+[Verbesserung]  Die aktualisierte Dokumentation zum ISMS-Add-ons ist ab jetzt hier zu finden: https://isms.readthedocs.io
 [Änderung]      Konfiguration der Risiko-Klassen und -Formel unter "Extras" - nicht mehr in den Mandanteneinstellungen
 [Änderung]      Mindestvoraussetzung i-doit Version 1.14.2 oder höher
 [Änderung]      Anpassung aller Kategorien und Report-Views auf die neuen Risikoklassen

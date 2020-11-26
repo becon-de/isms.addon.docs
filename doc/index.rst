@@ -1,5 +1,5 @@
 ######################################################
-Willkommen zur Dokumentations des i-doit Add-Ons ISMS
+Willkommen zur Dokumentations des i-doit Add-ons ISMS
 ######################################################
 
 Das Add-on ISMS dient dazu, das Risiko- und Maßnahmenmanagement direkt an den jeweiligen Objekten der IT-Dokumentation zu bewerten, zu dokumentieren und zu analysieren sowie darüber hinaus vorzeigbare Auswertungen mit Hilfe des Report Managers zu generieren. Es unterstützt hierbei die Dokumentationsprozesse der ISO-27000-Norm-Familie.

@@ -2,7 +2,7 @@
 Installation
 ############
 
-Die Installation des ISMS Add-Ons entspricht dem Standardvorgehen für die Installation von i-doit Add-Ons:
+Die Installation des ISMS Add-ons entspricht dem Standardvorgehen für die Installation von i-doit Add-ons:
 
 * Einloggen in des i-doit Admin-Center
 * Auf den Reiter "Add-ons" gehen
@@ -13,4 +13,4 @@ Die Installation des ISMS Add-Ons entspricht dem Standardvorgehen für die Insta
 
 Einzige Besonderheit: Das Add-on trägt in der Liste den Namen ISO27001.
 
-Nach der Installation muss das ISMS-Addon noch konfiguriert werden. Informationen dazu finden Sie unter :doc:`einrichtung`.
+Nach der Installation muss das ISMS-Add-on noch konfiguriert werden. Informationen dazu finden Sie unter :doc:`einrichtung`.
