@@ -125,3 +125,21 @@ In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Ma
     Diese Kategorie ist eine der wichtigsten im ISMS-Add-on. Hier wird gepflegt, ob die Maßnahme einbezogen wird oder nicht. Dafür muss eine Begründung hinterlegt werden. Es können außerdem SOA-Maßnahmen ausgewählt werden, die diese Anhang A Maßnahme umsetzen. Außerdem wird der Umsetzungsstatus für die Anhang A-Maßnahme an dieser Stelle dokumentiert. Alle diese Werte finden sich später in der Report-View "Erkärung der Anwendbarkeit (SOA)" wieder.
 **Maßnahme Anhang A**  
     Hier können Kennzeichnung, Abschnitt, Kapitel eine Beschreibung der Maßnahme dokumentiert werden.
+
+
+********************
+Objekttyp Virtueller ISMS-Standort
+********************
+
+.. image:: img/virtual_location_100x100.jpg
+     :class: floatright
+
+Objekte vom Objekttyp Virtueller ISMS-Standort dienen hauptsächlich als Hilfsobjekt, um in ISMS-Systemen mit konfigurierten Standortrechten den Standortbaum übersichtlich zu halten. Wenn alle SOA-Maßnahmen aus Zugriffsgründen einem Standort zugeordnet werden müssen, können diese diesem virtuellen Standort zugewiesen, damit der eigentlich für Infrastrukturobjekte gedachte Standortbaum nicht durch hunderte von "virtuellen" Objekten zu unübersichtlich wird. Standardmäßig wird der Objekttyp ausgeblendet. Bei Bedarf kann der Objekttyp aber über die Objekttyp-Konfiguration hinzugefügt werden.
+In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Virtueller ISMS-Standort:
+
+**Allgemein** *(i-doit Standardkategorie)*
+    Gehört zu jedem Objekt.
+**Räumlich zugeordnete Objekte** *(i-doit Standardkategorie)* 
+    In dieser Kategorie werden alle Objekte angezeigt, die dieses Objekt als Standort eingetragen haben.
+**Standort** *(i-doit Standardkategorie)*
+    Hier wird der Standort des Objektes eingetragen. Wenn einem virtuellen ISMS-Standort Objekte untergeordnet werden sollen, muss der virtuelle ISMS-Standort auch einen Standort haben.

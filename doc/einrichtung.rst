@@ -20,13 +20,13 @@ Der zweite Schritt ist die Einrichtung der Schadenszenarien:
 =======
 .. image:: img/einrichtung_2.PNG
 
-Die Schadensszenrien, in denen der Schadensausmaß eingeschätzt werden soll, müssen angelegt werden. Beispielhaft wären das:
+Die Schadensszenarien, in denen der Schadensausmaß eingeschätzt werden soll, müssen angelegt werden. Beispielhaft wären das:
 
 * Verstoß gegen Gesetze/Vorschriften/Verträge
 * Beeinträchtigung des informationellen Selbstbestimmungsrechts
 * Beeinträchtigung der persönlichen Unversehrtheit
 * Beeinträchtigung der Aufgabenerfüllung
-* Nagetive Innen- oder Außenwirkung
+* Negative Innen- oder Außenwirkung
 * Finanzielle Auswirkungen
 
 Die Kennzeichnung der Schadenszenarien ist nur für die Reihenfolge der Darstellung relevant, muss aber eine Zahl größer null enthalten. In den Schadenszenarien sollte eine textuelle Ausprägung für jedes vorhandene Bewertungskriterium erstellt werden. Die Ausprägungen werden später an den Schiebereglern für die Risikoeinschätzung angezeigt.
@@ -52,7 +52,7 @@ Des Weiteren sollten -vor allem wenn eine ISO27001-Zertifizierung angestrebt wir
 Alle Kataloge, die zum Import angeboten werden, sind in der ZIP-Datei des ISMS-Add-ons zu finden. Dazu muss zunächst die Zip-Datei entpackt und anschließend zu folgendem Pfad navigiert werden:
 **/src/classes/modules/iso27001/Catalogs**
 
-Die mitgelieferten Kataloge können über den CSV-Import von i-doit (unter |pfeil| Extras |pfeil| CMDB-Import |pfeil| CSV Import) importiert werden. Nach dem Auswählen der hochgeladenen CSV-Datei muss das Import-Profil"ISMS universal (new)"verwendet werden.
+Die mitgelieferten Kataloge können über den CSV-Import von i-doit (unter |pfeil| Extras |pfeil| CMDB-Import |pfeil| CSV Import) importiert werden. Nach dem Auswählen der hochgeladenen CSV-Datei muss das Import-Profil "ISMS universal (new)"verwendet werden.
 
 .. image:: img/einrichtung_4.PNG
 

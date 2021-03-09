@@ -2,6 +2,48 @@
 Changelog
 #########
 
+*************
+Version 1.4.1
+*************
+
+Deutsch
+=======
+::
+
+[Neue Funktion] Neuer Objekttyp "Virtueller ISMS-Standort" verfügbar
+[Neue Funktion] Risikoeinschätzungen können per CSV importiert werden
+[Verbesserung]  Optische Verbesserungen der Schieberegler bei der Risikobewertung
+[Änderung]      Zu Risikoeinschätzungen zugewiesene SOA-Maßnahmen werden in Reports jetzt mit Leerstellen getrennt, nicht mehr mit Komma
+[Bug]           Bei der Listenansicht von Risikoeinschätzungen wurden überschrieben Risikoklassen teilweise falsch angezeigt
+[Bug]           Bei älteren PHP-Version kam es zu einer Fehlermeldung nach Installation des Add-ons
+[Bug]           Beim Sortieren nach ISMS-Relevanz kam es bei der Objektliste zu einem Datenbankfehler
+[Bug]           Die englische Übersetzungen der Risikoformeln waren falsch
+[Bug]           Es fehlten Übersetzungen im Dialog-Admin
+[Bug]           Das horizontale Scrolling in breiten Reportviews funktionierte nicht mehr
+[Bug]           Die Einträge einiger Tabellen im Dialog-Admin konnten nicht bearbeitet werden
+[Bug]           Der Knopf "Bewertung vor Behandlung kopieren" hat den Wert für die Eintrittswahrscheinlichkeit nicht übernommen
+
+
+
+English
+=======
+::
+
+[New feature]   New object type "Virtual ISMS location" available
+[New feature]   Risk assessments can be imported via CSV import
+[Improvement]   Visual improvements of the risk evaluation sliders
+[Change]        SOA controls assigned to risk assessments are in reports now seperated with spaces instead of comma
+[Bug]           In the list view of risk assessments, overruled risk classes were sometimes displayes incorrectly
+[Bug]           With older PHP version there was an error message after installing the ISMS add-on
+[Bug]           When sorting according to ISMS relevance, a database error was shown in the object list
+[Bug]           The english translations of the risk formulas were incorrect
+[Bug]           In the dialog admin some translations were missing
+[Bug]           Horizontal scrolling in wide report views didn't work
+[Bug]           The entries of some tables in the dialog admin couldn't be edited
+[Bug]           The button "Copy assessment before treatment" didn't copy the value of the likelihood 
+
+
+
 ***********
 Version 1.4
 ***********
