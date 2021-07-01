@@ -3,6 +3,58 @@ Changelog
 #########
 
 *************
+Version 1.5
+*************
+
+Deutsch
+=======
+::
+
+[Neue Funktion] Neuer Objekttyp "Ereignis" mit neuer Kategorie "Risikoeinschätzung (Ereignis)" verfügbar, um Risiken mit einer Ereignis-basierten Methodik dokumentieren zu können
+[Neue Funktion] Neuer Objekttyp "Audit" mit neuer Kategorie "Audit" verfügbar, um Audits dokumentieren zu können
+[Neue Funktion] Neue Kategorie "Abweichungen", um Auditabweichungen dokumentieren zu können
+[Neue Funktion] Neue Attribute in der Kategorie "Risikoeinschätzung": "Risikoerfasser", "Interviewte Personen" im Abschnitt "Risikobewertung" und "Prüfer", "Prüfdatum", "Prüfergebnis", "Prüfergebnis (Dokument)" im neuen Abschnitt "Prüfung der Wirksamkeit der Risikobehandlung"
+[Neue Funktion] Verwendung eines neuen internen Attributtypes zum Upload von Dokumenten direkt in Kategorien ohne Verwendung der Kategorie "Datei", um den Zugriff auf die Dokumente über die jeweiligen Kategorierechte steuern zu können
+[Verbesserung]  Übersichtlichere grafische Darstellung der Kategorie "Risikoeinschätzung"
+[Verbesserung]  Umsetzungsstatus von SOA-Maßnahmen werden in der Risikoeinschätzung-Ansicht angezeigt
+[Verbesserung]  Anpassung der Report-Views, um Ereignisse adäquat anzuzeigen
+[Verbesserung]  Aktualisierung der Anforderungen in der Importdatei des IT-Grundschutz auf die Version 2021
+[Änderung]      Die Report-View "Risikobehandlungsplan (RTP)" basiert jetzt nicht mehr auf allen verfügbaren Bedrohungen, sondern auf alle verwendeten Risiken (Ereignis oder Bedrohung-Schwachstellen-Kombination)
+[Bug]           In der virtuellen Kategorie "Zugeordnete Maßnahmen" wurden mehrfach zugewiesene Maßnahmen auch mehrfach angezeigt
+[Bug]           Datenbanktabellen wurden bei der Deinstallation des Add-ons nicht alle gelöscht
+[Bug]           Archivierte oder gelöschte Bewertungskriterien und Schadensszenarien wurden teilweise noch angezeigt
+[Bug]           Es wurde beim Neuerstellen eines Objektes eine Fehlermeldung angezeigt, wenn die Kategorie "Zugeordnete Maßnahmen" auf der Übersichtsseite angezeigt werden sollte
+[Bug]           Beheben von fehlenden oder falsch zugeordneten Übersetzungen 
+[Bug]           Korrektur einiger Schreibfehler in den CSV-Import-Katalogen
+[Bug]           Die Stellung der Schieberegler auf "nicht bewertet" für Eintrittswahrscheinlichkeit und Schadensausmaß wurde teilweise nicht korrekt gespeichert
+
+
+
+English
+=======
+::
+
+[New feature]   Added new object type "Event" with new category "Risk assessment (event)" to document risks following an event based approach
+[New feature]   Added new object type "Audit" with new category "Audit" to document audits
+[New feature]   Added new category "Deviations" to document deviations identified during audits
+[New feature]   Added new attributes in category "Risk assessment": "Risk assessor", "Interviewed persons" in section "Risk evaluation" and "Auditor", "Audit date", "Audit result", "Audit result (document)" in the new section "Check of effectiveness of the risk treatment"
+[New feature]   Usage of a new internal attribute type to upload documents directly into categories without usage of the category "file" to be able to set the permissions based on the corresponding category
+[Improvement]   Better graphic representation of the "Risk assessment" category
+[Improvement]   The implementation status of SOA controls is displayed in the risk assessment view
+[Improvement]   Adjustment of the report views in order to display events adequately
+[Improvement]   Update of the requirements in the import file of IT-Grundschutz to version 2021
+[Change]        The report view "Risk Treatment Plan (RTP)" is no longer based on all available threats, but on all risks used (event or threat+vulnerability combination)
+[Bug] 			In the virtual category "Assigned controls", multiple assigned controls were also displayed multiple times
+[Bug] 			Not all Database tables were deleted if the add-on was uninstalled
+[Bug] 			Archived or deleted criteria and incident scenarios were still displayed sometimes
+[Bug] 			An error message was displayed when creating an object if the category "Assigned controls" should be displayed on the overview page
+[Bug] 			Fixing missing or incorrectly assigned translations
+[Bug] 			Correction of some typos in the CSV import catalogs
+[Bug] 			The position of the slider on "unrated" for the likelihood and impact was sometimes not saved correctly 
+
+
+
+*************
 Version 1.4.1
 *************
 

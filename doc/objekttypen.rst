@@ -5,6 +5,44 @@ ISMS-Objekttypen
 Das ISMS-Add-on führt sechs neue Objekttypen ein, die alle in der Objekttypgruppe "ISMS" eingeordnet werden:
 
 ******************
+Objekttyp Audit
+******************
+
+.. image:: img/audit_100x100.jpg
+     :class: floatright
+
+Der Objekttyp "Audit" dient der Erfassung von Audits und deren Ergebnissen und Abweichungen:
+
+**Abweichungen** 
+    In dieser Multivalue-Kategorie können die beim Audit festgestellten Abweichungen dokumentiert werden. Initial sind die Abweichungstypen "Hauptabweichung", "Nebenabweichung", "Empfehlung" und "Hinweis" eingereichtet.
+**Allgemein** *(i-doit Standardkategorie)* 
+    Gehört zu jedem Objekt.
+**Audit** 
+    In dieser Kategorie können die Daten eines Audits hinterlegt werden, wie z.B. Audittype, Auditkriterium, Prüfzeitraum und Prüfbericht.
+
+********************
+Objekttyp Bedrohung
+********************
+
+.. image:: img/threat_100x100.jpg
+     :class: floatright
+
+Der Objekttyp "Bedrohung" bildet die Bedrohungen für die Risikoeinschätzungen ab. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Bedrohung:
+
+**Allgemein** *(i-doit Standardkategorie)*
+    Gehört zu jedem Objekt.
+**Bedrohung**  
+    Hier können Kennzeichnung, Kategorie, Katalog, Kapitel und Abschnitt der Bedrohung dokumentiert werden, was sinnvoll ist, wenn diese aus einem Katalog (z.B. dem Grundschutz-Kompendium) stammt. Außerdem können die Schutzziele (Vertaulichkeit, Intigrität, Verfügbarkeit) dokumentiert werden.
+**Empfehlungen nach ISO27002** 
+    Diese Kategorie halt zwei Textfelder für die Empfehlungen nach ISO27002 bereit. Entsprechende Importe können wir derzeit aus Lizenzgründen leider nicht anbieten.
+**ISMS: Wird verwendet in** 
+    Ein variabler Report, der alle Objekte auflistet, die diese Bedrohung "benutzen".
+**Typische Schwachstellen**
+    Ist eine Multi-Value Kategorie, in der Schwachstellen aus der Liste aller vorhanden Schwachstellen ausgewählt werden können.
+**Zugriff** *(i-doit Standardkategorie)* 
+    Über die Zugriffs-Kategorie kann die Bedrohung z.B. mit der Beschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt werden.
+
+******************
 Objekttyp Bewertungskriterium
 ******************
 
@@ -17,6 +55,40 @@ Der Objekttyp "Bewertungskriterium" bildet die Grundlage zur Bewertung von Risik
     Gehört zu jedem Objekt.
 **Bewertungskriterium** 
     Hier muss das Level festgesetzt werden, das für die Berechnung der Risikohöhe ausschlaggebend ist. Das Level ist die Berechnungsgrundlage für die Berechnung der Risikohöhe. Außerdem können eine Beschreibung der Eintrittswahrscheinlichkeit und eine Benennung der Schadensaußmaß für das Bewertungskriterium festlegegt werden.
+
+********************
+Objekttyp Ereignis
+********************
+
+.. image:: img/event_100x100.jpg
+     :class: floatright
+
+Mit dem Objekttypen Ereignis können Risikoereignisse für eine Ereignis-basierte Risikoidentifikation abgebildet werden.
+In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Ereignis:
+
+**Allgemein** *(i-doit Standardkategorie)*
+    Gehört zu jedem Objekt.
+**Risikoeinschätzung (Ereignis)** 
+    Diese Kategorie entspricht weitestgehend der Kategorie `_Risikoeinschätzung <risikoeinschaetzung.html>`. Statt Bedrohung und Schwachstelle müssen jedoch eine Risikobeschreibung und die Risikoquelle(n) angegeben werden.
+
+
+********************
+Objekttyp Maßnahme Anhang A
+********************
+
+.. image:: img/control_annex_a_100x100.jpg
+     :class: floatright
+
+Der Objekttyp Anhang A Maßnahme sollte nach der :doc:`einrichtung` des Add-ons die 114 Anhang A Maßnahmen aus der ISO27001 beinhalten. Hauptzweck der Anhang A Maßnahmen ist der Abgleich mit den SOA-Maßnahmen.
+In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Maßnahme Anhang A:
+
+**Allgemein** *(i-doit Standardkategorie)*
+    Gehört zu jedem Objekt.
+**Anwendbarkeit** 
+    Diese Kategorie ist eine der wichtigsten im ISMS-Add-on. Hier wird gepflegt, ob die Maßnahme einbezogen wird oder nicht. Dafür muss eine Begründung hinterlegt werden. Es können außerdem SOA-Maßnahmen ausgewählt werden, die diese Anhang A Maßnahme umsetzen. Außerdem wird der Umsetzungsstatus für die Anhang A-Maßnahme an dieser Stelle dokumentiert. Alle diese Werte finden sich später in der Report-View "Erkärung der Anwendbarkeit (SOA)" wieder.
+**Maßnahme Anhang A**  
+    Hier können Kennzeichnung, Abschnitt, Kapitel eine Beschreibung der Maßnahme dokumentiert werden.
+
 
 *********************
 Objekttyp Schadensszenario
@@ -46,28 +118,6 @@ Der Objekttyp "Schadensszenario" bildet die Schadensszenarien/Schadenskategorien
      - Normal: Von 5.000 bis 50.000 EUR
      - Hoch: Von 50.000 bis 500.000 EUR
      - Sehr hoch: Mehr als 500.000 EUR
-
-********************
-Objekttyp Bedrohung
-********************
-
-.. image:: img/threat_100x100.jpg
-     :class: floatright
-
-Der Objekttyp "Bedrohung" bildet die Bedrohungen für die Risikoeinschätzungen ab. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Bedrohung:
-
-**Allgemein** *(i-doit Standardkategorie)*
-    Gehört zu jedem Objekt.
-**Bedrohung**  
-    Hier können Kennzeichnung, Kategorie, Katalog, Kapitel und Abschnitt der Bedrohung dokumentiert werden, was sinnvoll ist, wenn diese aus einem Katalog (z.B. dem Grundschutz-Kompendium) stammt. Außerdem können die Schutzziele (Vertaulichkeit, Intigrität, Verfügbarkeit) dokumentiert werden.
-**Empfehlungen nach ISO27002** 
-    Diese Kategorie halt zwei Textfelder für die Empfehlungen nach ISO27002 bereit. Entsprechende Importe können wir derzeit aus Lizenzgründen leider nicht anbieten.
-**ISMS: Wird verwendet in** 
-    Ein variabler Report, der alle Objekte auflistet, die diese Bedrohung "benutzen".
-**Typische Schwachstellen**
-    Ist eine Multi-Value Kategorie, in der Schwachstellen aus der Liste aller vorhanden Schwachstellen ausgewählt werden können.
-**Zugriff** *(i-doit Standardkategorie)* 
-    Über die Zugriffs-Kategorie kann die Bedrohung z.B. mit der Beschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt werden.
 
 ********************
 Objekttyp Schwachstelle
@@ -108,24 +158,6 @@ In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ SO
     Ein variabler Report, der alle Objekte auflistet, die diese SOA-Maßnahme "benutzen".
 **Zugriff** *(i-doit Standardkategorie)* 
     Über die Zugriffs-Kategorie kann die Bedrohung z.B. mit der Beschreibung auf der Internetseite des IT-Grundschutzkompendiums des BSI verlinkt werden.
-
-********************
-Objekttyp Maßnahme Anhang A
-********************
-
-.. image:: img/control_annex_a_100x100.jpg
-     :class: floatright
-
-Der Objekttyp Anhang A Maßnahme sollte nach der :doc:`einrichtung` des Add-ons die 114 Anhang A Maßnahmen aus der ISO27001 beinhalten. Hauptzweck der Anhang A Maßnahmen ist der Abgleich mit den SOA-Maßnahmen.
-In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Maßnahme Anhang A:
-
-**Allgemein** *(i-doit Standardkategorie)*
-    Gehört zu jedem Objekt.
-**Anwendbarkeit** 
-    Diese Kategorie ist eine der wichtigsten im ISMS-Add-on. Hier wird gepflegt, ob die Maßnahme einbezogen wird oder nicht. Dafür muss eine Begründung hinterlegt werden. Es können außerdem SOA-Maßnahmen ausgewählt werden, die diese Anhang A Maßnahme umsetzen. Außerdem wird der Umsetzungsstatus für die Anhang A-Maßnahme an dieser Stelle dokumentiert. Alle diese Werte finden sich später in der Report-View "Erkärung der Anwendbarkeit (SOA)" wieder.
-**Maßnahme Anhang A**  
-    Hier können Kennzeichnung, Abschnitt, Kapitel eine Beschreibung der Maßnahme dokumentiert werden.
-
 
 ********************
 Objekttyp Virtueller ISMS-Standort
