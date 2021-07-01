@@ -69,7 +69,7 @@ In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Er
 **Allgemein** *(i-doit Standardkategorie)*
     Gehört zu jedem Objekt.
 **Risikoeinschätzung (Ereignis)** 
-    Diese Kategorie entspricht weitestgehend der Kategorie `_Risikoeinschätzung <risikoeinschaetzung.html>`. Statt Bedrohung und Schwachstelle müssen jedoch eine Risikobeschreibung und die Risikoquelle(n) angegeben werden.
+    Diese Kategorie entspricht weitestgehend der Kategorie `_Risikoeinschätzung <risikoeinschaetzung.html>`_. Statt Bedrohung und Schwachstelle müssen jedoch eine Risikobeschreibung und die Risikoquelle(n) angegeben werden.
 
 
 ********************
