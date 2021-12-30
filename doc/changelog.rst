@@ -3,6 +3,40 @@ Changelog
 #########
 
 *************
+Version 1.5.1
+*************
+
+Deutsch
+=======
+::
+
+[Neue Funktion] Neuer Objekttyp "Normanforderung" für Anforderungen aus Normen (z.B. ISO 27001, ISO27002) 
+[Neue Funktion] Errechnung des Umsetzungsstatus anhand der zugewiesenen Maßnahmen in der Kategorie "Abweichungen"
+[Neue Funktion] In den Mandanteneinstellungen "anschaltbare" Attribute Risikokennzeichnung und Risikotitel für die Kategorie Risikoeinschätzung
+[Neue Funktion] Beschriftung der Risikomatrix kann durch Experten-Einstellung überschrieben werden
+[Neue Funktion] Ein Link direkt zur Risikoeinschätzung wird in relevanten Report-Views angezeigt und ist im Report-Manager verwendbar
+[Verbesserung]  Neue Attribute in der Katgeorie "Abweichungen" für den Objekttypen Audit
+[Bug]           Beim Speichern von Kategorien ohne Dateien wurde eine Fehlermeldung angezeigt
+[Bug]           Einige Funktionen des ISMS-Addons wurden geladen, wenn da Addon deaktiviert war
+
+
+
+English
+=======
+::
+
+[New function] New objekt type "Standard requirement" for requirements of standards (e.g. ISO 27001, ISO27002) 
+[New function] Calculation of the  control implementation status based on the assigned controls in the "Deviations" category
+[New function] The attributes risk identification and risk title for the category risk assessment can be swithed on in the tenant-settings
+[New function] Labeling of the risk matrix can be overwritten by expert settings
+[New function] A direct link to the risk assessment is displayed in the relevant report views and can be used in the report manager
+[Improvement]  New attributes in the "Deviations" category for the audit object type
+[Bug] 		   An error message was displayed when saving categories without files
+[Bug] 		   Some functions of the ISMS add-on were loaded when the add-on was deactivated
+
+
+
+*************
 Version 1.5
 *************
 
