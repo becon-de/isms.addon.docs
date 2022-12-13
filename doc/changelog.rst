@@ -4,21 +4,6 @@ Changelog
 
 
 
-
-ISMS 1.5.3 - Deutsch
---------------------------------------------------------------------------------
-
-ISMS 1.5.3 - english
---------------------------------------------------------------------------------
-[Improvement]   Added CSV import catalog of controls of the annex A of the new ISO 27001
-[Bug]           Threats and vulnerabilties were not saved in a risk assessment, if running on PHP 8
-[Bug]           List view of category "Standard Vulnerabilities" didn't work. if running on PHP 8
-[Bug]           In some views of the report manager the asset owner and the risk owner were displayed, even if the person or contact assignment was archived/deleted
-
-
-
-
-
 *************
 Version 1.5.3
 *************
