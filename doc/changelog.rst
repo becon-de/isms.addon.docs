@@ -2,6 +2,77 @@
 Changelog
 #########
 
+
+
+
+ISMS 1.5.3 - Deutsch
+--------------------------------------------------------------------------------
+
+ISMS 1.5.3 - english
+--------------------------------------------------------------------------------
+[Improvement]   Added CSV import catalog of controls of the annex A of the new ISO 27001
+[Bug]           Threats and vulnerabilties were not saved in a risk assessment, if running on PHP 8
+[Bug]           List view of category "Standard Vulnerabilities" didn't work. if running on PHP 8
+[Bug]           In some views of the report manager the asset owner and the risk owner were displayed, even if the person or contact assignment was archived/deleted
+
+
+
+
+
+*************
+Version 1.5.3
+*************
+
+Deutsch
+=======
+::
+
+[Verbesserung]  CSV-Import-Katalog für Maßnahmen aus dem Anhang A der neuen ISO27001 hinzugefügt
+[Bug]           Bedrohungen und Schwachstellen wurden bei der Risikoeinschätzung nicht gespeichert, wenn das System unter PHP 8 lief
+[Bug]           Die Listenansicht der Kategorie "Typische Schwachstellen" funktioniert unter PHP 8 nicht
+[Bug]           In einigen Views im Reportmanager wurden Werteeigentümer und Risikoeigentümer angezeigt, auch wenn die Person oder die Kontaktzuweisung archiviert/gelöscht waren
+
+
+
+English
+=======
+::
+
+[Improvement]   Added CSV import catalog of controls of the annex A of the new ISO 27001
+[Bug]           Threats and vulnerabilties were not saved in a risk assessment, if running on PHP 8
+[Bug]           List view of category "Standard Vulnerabilities" didn't work. if running on PHP 8
+[Bug]           In some views of the report manager the asset owner and the risk owner were displayed, even if the person or contact assignment was archived/deleted
+
+
+
+*************
+Version 1.5.2
+*************
+
+Deutsch
+=======
+::
+
+[Verbesserung]  Kompatibilität zu i-doit 1.19
+[Verbesserung]  Kompatibilität zu PHP 8.0
+[Verbesserung]  Optische Anpassungen an neues Layout von i-doit 1.19
+[Bug]           Die Spaltenüberschriften der View "ISMS Risikoeinschätzung objektbasiert" waren teilweise falsch zugeordnet
+[Bug]           Der CSV-Export der Eintrittswahrscheinlichkeit nach Behandlung war teilweise falsch, wenn auch die Eintrittswahrscheinlichkeit vor Behandlung enthalten war
+
+
+
+English
+=======
+::
+
+[Improvement]  Compatibility to i-doit 1.19
+[Improvement]  Compatibility to PHP 8.0
+[Improvement]  Optical improvements to fit new layout of i-doit 1.19
+[Bug]          The assignment of column headlines of the report "ISMS risk assessment object based" were partly wrong
+[Bug]          The CSV export of the likelihood after treatment was sometimes wrong, if the likelihood before treatment was included
+
+
+
 *************
 Version 1.5.1
 *************
