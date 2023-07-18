@@ -5,6 +5,42 @@ Changelog
 
 
 *************
+Version 1.5.4
+*************
+
+Deutsch
+=======
+::
+
+[Neue Funktion] Einführung der Attribute der neuen ISO27002, Zuweisung der Attribute zu Anforderungen/Maßnahmen
+[Verbesserung]  Attribut "Umgesetzt durch" in der Kategorie "Anwendbarkeit" kann jetzt per CSV-Import befüllt werden
+[Bug]           Das Attribut "Anwendungsbereich" der Kategorie "ISMS" konnte im ReportManager (und damit auch im Dokumente-Add-on) nicht ausgegeben werden
+[Bug]           Kategorielisten führten in i-doit25 zu einem internal server error
+[Bug]           Listeneditierung der Kategorie "Risikoeinschätzung" setzte die Eintrittswahrscheinlichkeit auf 0
+[Bug]           Der Risikoerfasser wurde bei PHP8 nicht korrekt angezeigt und gespeichert
+[Bug]           Die Eintrittswahrscheinlichkeit wurde nicht gespeichert, wenn die Beschreibung der Eintrittswahrscheinlichkeit leer war
+[Bug]           Bei PHP8 wurden nach dem Erstellen eines Schadensszenarios nicht mehr automatisch die einzelnen Bewertungskriterien angelegt
+[Bug]           Die Sprachkonstanten des Umsetzungsstatus wurden in der Anzeige-Ansicht nicht übersetzt
+
+
+
+English
+=======
+::
+
+[New function]  Introduction of the attributes of the new ISO 27002, assignment of the attribute to controls/requirements
+[Improvement]   Attribute "Realization by" in category "Applicability" can now be imported with CSV import
+[Bug]           Attribute "Application scope" of category "ISMS" couldn't be selected in report manager (and therefore also not in documents add-on)
+[Bug]           Category lists led to an internal server error in i-doit 25
+[Bug]           List editing of category "risk assessment" set the likelyhood to 0
+[Bug]           The risk assessor was not displayed and saved correctly in PHP8
+[Bug]           The likelihood wasn't saved, if the likelihood description was empty
+[Bug]           With PHP8, after creating an incident scenario, the criteria were no longer created automatically
+[Bug]           Attribute "Application scope" of category "ISMS" was not available for reporting
+
+
+
+*************
 Version 1.5.3
 *************
 
