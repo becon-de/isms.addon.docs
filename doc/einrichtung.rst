@@ -33,13 +33,13 @@ Die Kennzeichnung der Schadenszenarien ist nur für die Reihenfolge der Darstell
 
 Im dritten Schritt müssen die Risikoklassen und die Risikoformel definiert werden.
 =======
-Die Einstellung für die Risikoformel ist unter |pfeil| Extras |pfeil| ISMS |pfeil| 2. Risikoberechnung zu finden. Die Risikomatrix auf der linken Seite hat genauso viele Zeilen und Spalten, wie zuvor Bewertungskriterien angelegt sind.
+Die Einstellung für die Risikoformel ist unter |pfeil| Add-ons |pfeil| ISMS |pfeil| 2. Risikoberechnung zu finden. Die Risikomatrix auf der linken Seite hat genauso viele Zeilen und Spalten, wie zuvor Bewertungskriterien angelegt sind.
 Anhand der Risikoberechnungsformel, die auf der rechten Seite ausgewählt wird, ergeben sich die Werte der einzelnen Felder in der Risikomatrix.
 Wenn ein Feld in der Risikomatrix ausgewählt wird, kann die errechnete Risikoklasse des entsprechende Feldes mit einer anderen Riskoklasse überschreiben werden. Diese Felder werden mit einem Sternchen gekennzeichnet.
 
 .. image:: img/einrichtung_3_risikoberechnung.PNG
 
-Weitere Risikoklassen können unter |pfeil| Extras |pfeil| ISMS |pfeil| 1. Risikoklassen erstellt werden. Dazu am oberen Bildschirmrand auf den Button "+ Neue Risikoklasse" klicken, einen Namen und eine Farbe vergeben und anschließend die Obergrenzen der Risikoklassen neu zuweisen. Die höchste Risikoklasse sollte keine Obergrenze haben.
+Weitere Risikoklassen können unter |pfeil| Add-ons |pfeil| ISMS |pfeil| 1. Risikoklassen erstellt werden. Dazu am oberen Bildschirmrand auf den Button "+ Neue Risikoklasse" klicken, einen Namen und eine Farbe vergeben und anschließend die Obergrenzen der Risikoklassen neu zuweisen. Die höchste Risikoklasse sollte keine Obergrenze haben.
 
 .. image:: img/einrichtung_3_risikoklassen.PNG
 
