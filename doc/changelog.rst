@@ -5,6 +5,36 @@ Changelog
 
 
 *************
+Version 1.5.5
+*************
+
+Deutsch
+=======
+::
+
+[Verbesserung]  Neues Attribut "Risikoeigentümer" in der Kategorie "Risikoeinschätzung" und automatische Migration der Kontaktzuweisung mit der Rolle "Risikoeigentümer" in das neue Attribute
+[Verbesserung]  CSS-Formatierungen für die Anzeige vom Normanforderungstext hinzugefügt
+[Bug]           Kompatibilität zu i-doit 27 wiederhergestellt
+[Bug]           Der CSV-Import von einigen Maßnahmen Anhang A (Version 2022) hat nicht korrekt funktioniert
+[Bug]           Der Umsetzungsstatus von Maßnahmen wird in der View-Sicht von Risikoeinschätzungen nicht korrekt angezeigt
+[Bug]           Es werden nur SOA-Maßnahmen in der virtuellen Kategorie "Zugeordnete Maßnahmen" angezeigt
+
+
+
+English
+=======
+::
+
+[Improvement]   Added new attribute "risk owner" in category "risk assessment" and migrate contact assignment with role "risk owner" into new attribute
+[Improvement]   Added CSS styles for display of standard texts
+[Bug]           Fixed compatibility to i-doit 27
+[Bug]           The CSV import of some controls of annex A (version 2022) didn't work prpoerly
+[Bug]           The implementation status of controls was not shown properly in the non-edit view of risk assessments
+[Bug]           Only SOA controls were shown in the virtual category "Assigned controls"
+
+
+
+*************
 Version 1.5.4
 *************
 
