@@ -5,6 +5,36 @@ Changelog
 
 
 *************
+Version 1.5.6
+*************
+
+Deutsch
+=======
+::
+
+[Neue Funktion] Beim Erstellen/Bearbeiten von Risikoeinschätzungen wird die Risikoklasse für die aktuelle Slidereinstellung angezeigt und bei Änderungen aktualisiert
+[Verbesserung]  Im Ansichtsmodus von Risikoeinschätzungen wird bei den Schadensszenarien jetzt das Level des Schadensausmaßes mit ausgegeben
+[Verbesserung]  Die Risikoklasse wird im Ansichtsmodus von Risikoeinschätzungen angezeigt
+[Verbesserung]  CSV-Import der Anforderungen aus dem IT-Grundschutzkompendium 2023 hinzugefügt
+[Bug]           Colorpicker auf Coloris umgestellt, um Kompatibilität mit i-doit >= 29 wiederherzustellen
+[Bug]           Listenansicht von Risikoeinschätzung funktionierte nicht mehr richtig für i-doit >= 30
+
+
+
+English
+=======
+::
+
+[New function]   When creating/editing risk evaluations, the risk class for the current slider settings will be shown and updated on change 
+[Improvement]   In view mode of risk evaluations the impact level of the risk scenarios will be shown
+[Improvement]   In view mode of risk evaluations the risk class will be shown
+[Improvement]   Added CSV import of the requirements of the IT-Grundschutzkompendium 2023 (in German)
+[Bug]           Changed the colorpicker to Coloris to be compatible to i-doit >= 29
+[Bug]           The list view of risk evaluations wasn't compatible to i-doit >= 30
+
+
+
+*************
 Version 1.5.5
 *************
 
