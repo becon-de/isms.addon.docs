@@ -5,6 +5,36 @@ Changelog
 
 
 *************
+Version 1.6
+*************
+
+Deutsch
+=======
+::
+
+[Neue Funktion] Neuer Objekttyp "Sicherheitsvorfall"
+[Neue Funktion] Neue Kategorie "Sicherheitsvorfall"
+[Verbesserung]  NIS2-Anforderungen als Import-Katalog hinzugefügt, generisches Importprofil erweitert
+[Verbesserung]  Verbesserte Darstellung von Normanforderungstexten
+[Bug]           In den Views "ISMS Risikoeinschätzung" und "ISMS Risikoeinschätzung objektbasiert" wurden nicht alle Hintergrundfarben standardmäßig ausgedruckt
+[Bug]           Beim Duplizieren der Kategorie "Risikoeinschätzung" wurden die Werte für "Eintrittswahrscheinlichkeit" und "Eintrittswahrscheinlichkeit nach Behandlung" nicht übernommen
+
+
+
+English
+=======
+::
+
+[New function]  New object type "Security incident"
+[New function]  New category "Security incident"
+[Improvement]   Added import catalog for NIS2 controls, extended generic import profile
+[Improvement]   Optimized display of standard texts
+[Bug]           In the views "ISMS Assessment" and "ISMS risk assessment object based" not all background colors were printed by default
+[Bug]           When duplicating the category "Risk assessment", the values ​​for "Likelihood" and "Likelihood after treatment" were not copied
+
+
+
+*************
 Version 1.5.6
 *************
 

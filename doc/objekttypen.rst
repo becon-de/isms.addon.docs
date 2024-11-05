@@ -135,6 +135,22 @@ Der Objekttyp "Schadensszenario" bildet die Schadensszenarien/Schadenskategorien
      - Hoch: Von 50.000 bis 500.000 EUR
      - Sehr hoch: Mehr als 500.000 EUR
 
+*********************
+Objekttyp Sicherheitsvorfall
+*********************
+
+.. image:: img/security_incident_100x100.jpg
+     :class: floatright
+
+Der Objekttyp "Sicherheitsvorfall" dient der Dokumentation von Sicherheitsvorfällen. In der Standardkonfiguration gehören folgende Kategorien zu Objekten vom Typ Schadensszenario:
+
+**Allgemein** *(i-doit Standardkategorie)*
+    Gehört zu jedem Objekt.
+**Risikoeinschätzung (Ereignis)** 
+    Diese Kategorie entspricht weitestgehend der Kategorie `_Risikoeinschätzung <risikoeinschaetzung.html>`_. Hier können für den Sicherheitsvorfall die Auswirkungen und die Behandlung des Sicherheitsvorfalls dokumentiert werden.
+**Sicherheitsvorfall** 
+    Hier wird der Sicherheitsvorfall dokumentiert. Dies umfasst neben dem Zeitpunkt des Vorfalls, dem Entdeckungszeitpunkt und der Beschreibung des Vorfalls auch die Meldungen an die Behörden.
+
 ********************
 Objekttyp Schwachstelle
 ********************
