@@ -4,43 +4,75 @@ Changelog
 
 
 
-ISMS 1.6.3 - Deutsch
---------------------------------------------------------------------------------
+*************
+Version 1.6.3
+*************
+
+Deutsch
+=======
+::
+
 [Bug]           Bedrohungen und Schwachstellen wurden nicht exportiert
 [Bug]           Einige Programmstellen waren nicht kompatibel zu i-doit 37
 
-ISMS 1.6.3 - english
---------------------------------------------------------------------------------
+
+
+English
+=======
+::
+
 [Bug]           Threats an vulnerabilities couldn't be exported
 [Bug]           Some parts of the programm were net compatible to i-doit 37
 
 
-ISMS 1.6.2 - Deutsch
---------------------------------------------------------------------------------
+
+*************
+Version 1.6.2
+*************
+
+Deutsch
+=======
+::
+
 [Bug]           Bei Risikoeinschätzungen ließ sich die Eintrittswahrscheinlichkeit nicht per CSV importieren
 [Bug]           Bei einer Neuinstallation wurden die Standard-Risikoklassen nicht korrekt angelegt
 [Bug]           Neunistallation vom ISMS-Add-on lief auf einen Fehler
 
-ISMS 1.6.2 - english
---------------------------------------------------------------------------------
+
+
+English
+=======
+::
+
 [Bug]           The likelihood of risk assessments could not be imported via CSV.
 [Bug]           The default risk classes were not created correctly during first add-on installation.
 [Bug]           A new installation of the ISMS add-on resulted in an error.
 
 
-ISMS 1.6.1 - Deutsch
---------------------------------------------------------------------------------
+
+*************
+Version 1.6.1
+*************
+
+Deutsch
+=======
+::
+
 [Verbesserung]  Bestehende Import-Kataloge aktualisiert
 [Verbesserung]  Template-Anpassungen für i-doit 35-Kompatibilität
 [Bug]           Risikoeinschätzungen im Reportmanager konnten zu Fehlern führen, wenn Bedrohung oder Schwachstelle nicht gesetzt waren
 [Bug]           Beim Löschen von Datensätzen von Audit-Abweichungen wurden Beziehungsobjekte zu SOA-Maßnahmen nicht gelöscht.
 
-ISMS 1.6.1 - english
---------------------------------------------------------------------------------
-[Improvement] Existing import catalogs updated
-[Improvement] Template adjustments for i-doit 35 compatibility
-[Bug] Risk assessments in the Report Manager could lead to errors if threat or vulnerability not set
-[Bug] When deleting audit deviation records, relation objects to SOA controls were not deleted.
+
+
+English
+=======
+::
+
+[Improvement] 	Existing import catalogs updated
+[Improvement] 	Template adjustments for i-doit 35 compatibility
+[Bug] 			Risk assessments in the Report Manager could lead to errors if threat or vulnerability not set
+[Bug] 			When deleting audit deviation records, relation objects to SOA controls were not deleted.
 
 
 *************
